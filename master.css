@@ -16,8 +16,10 @@ nav{
     padding: 20px;
 }
 
-a{
+nav a{
     text-decoration: none;
+    display: block;
+    padding: 1em;
     color: black;
 }
 
