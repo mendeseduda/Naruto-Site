@@ -9,22 +9,30 @@
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="">Lore</a></li>
-            <li><a href="">Chackra</a></li>
+        <ul class="navigator">
+            <li><a id="nav-first-link" href="">Lore</a></li>
+            <li><a href="">Chakra</a></li>
             <li><a href="">Bijuus</a></li>
             <li><a href="">Akatsuki</a></li>
             <li><a href="">Review</a></li>
         </ul>
-        <img src="Resources/naruto.jpg" class="img-circle" alt="">
+        <map name="naruto-map">
+            <area target="" alt="NarutoFDP_map" href="" coords="527,475,0,0" shape="rect">
+        </map>
+        <map name="sasuke-map">
+            <area target="" alt="SasukeFDP_map" href="" coords="356,343,0,0" shape="rect">
+        </map>
+        <img src="Resources/naruto.jpg" class="img-circle" usemap="naruto-map" alt="">
         <img src="Resources/Vs.png" id="Vs" alt="">
-        <img src="Resources/sasuke.jpg" class="img-circle" alt="">
+        <img src="Resources/sasuke.jpg" 
+       id="sasukeFDP_id" class="img-circle" usemap="sasuke-map" alt="">
     </nav>
     
     <footer>
         <dl>
             <dt>Criadores deste humilde site: 
-                <dd>Eduardo Mendes R. de Farra</dd>
+                <dd>Eduardo Mendes R. de Faria</dd>
+                <dd>Matheus Moreira da Silva (Gato)</dd>
                 <dd>Vitor Gabriel B. Maia</dd>
             </dt>
         </dl>
