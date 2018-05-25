@@ -1,76 +1,91 @@
-html{
+body{
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-body{
-    /*background-image: url("Resources/background.jpg");
-    background-repeat: repeat-y;*/
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 nav{
-    background-image: linear-gradient(to bottom, #FFB252, #FF9331);
-    box-sizing: border-box;
-    border-radius: 12px;
+    display: flex;
+    background: rgba(0,0,0,.99);
+    margin: 0;
+    top: 0;
     width: 100%;
     height: 80px;
     display: flex;
     align-items: center;
-    padding: 0 20px 0 0 ;
-}
-
-a:hover{
-    background: #ED892E;
-    box-shadow: 0 0 20px orange;
+    position: fixed;
+    overflow: hidden;
+    margin-bottom: 10px;
 }
 
 nav ul{
     display: flex;
-    width: 100%;
-    padding-left: 0;
 }
 
 nav ul > li{
     display: flex;
     font-family: "Times New Roman", Times, serif;
-}
-
-.navigator > li:last-child{
-    margin-right: 50px;
+    text-decoration: none;
 }
 
 .navigator a{
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 30px 30px 30px 30px;
     width: 90.2px;
+    height: 20px;
     text-align: center;
-    transition: all 1s;
 }
 
-#nav-first-link{
-    border-bottom-left-radius: 12px;
-    border-top-left-radius: 12px;
+.navigator a:hover{
+    background: rgb(61, 59, 56);
+    box-shadow: 0 0 20px rgb(61, 59, 56);
+}
+
+.navigator-right{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .img-circle{
-    width: 45px;
-    height: 45px;;
-    border: 0.5px solid black;
+    width: 60px;
+    height: 60px;;
     border-radius: 50%;
+    box-shadow: 0 0 5px black;
+    transition: all 0.5s;
 }
 
-#sasukeFDP_id{
-    margin-right: 40px;
+.img-circle:hover{
+    box-shadow: 0 0 20px white;
 }
 
 #Vs{
+    align-self: center;
     margin: 0 30px 0 30px;
     height: 40px;
     height: 40px;
+}
+
+.container{
+    margin-top: 120px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.section{
+    width: 900px;
+    height: 900px;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: inherit;
+    justify-content: center;
 }
 
 footer {
