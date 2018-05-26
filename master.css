@@ -1,3 +1,8 @@
+@font-face{
+    font-family: narutoFont;
+    src: url(Resources/Fontes/njnaruto.ttf);
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -68,6 +73,19 @@ nav ul > li{
     margin: 0 30px 0 30px;
     height: 40px;
     height: 40px;
+}
+
+.characterName{
+    align-items: center;
+    margin: 0 15px 0 15px;
+}
+
+.characterName p{
+    font-family: narutoFont;
+    background: linear-gradient(to right, rgba(245,163,0,1) 0%, rgba(219,66,20,1) 22%, 
+    rgba(245,163,0,1) 42%, rgba(219,66,20,1) 61%, rgba(245,163,0,1) 83%, rgba(219,66,20,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .container{
