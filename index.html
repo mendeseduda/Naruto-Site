@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="StyleSheets/Pagina_Template.css">
     <title>Lore</title>
+    <script src=""></script>
 </head>
 <body>
-    <nav>
+    <nav id="Topnav_id" class="nav">
         <ul class="navigator">
             <li><a id="nav-first-link" href="">Lore</a></li>
             <li><a href="">Chakra</a></li>
@@ -23,18 +24,23 @@
             <li><img src="Resources/sasuke.jpg" class="img-circle" ></li>
             <li class="characterName"><p>Sasuke</p></li>
         </ul>
+        <div class="responsive-menu">
+            <a class="icon" href="javascript:void(0);" onclick="dropdownMenu()"><img id="menu-icon" src="Resources/menu.png" alt=""></a>
+        </div>
     </nav>
     
     <div class="container-area">
         <div class="container"> 
             <section>
-                <p>Teste</p>
+                <h1>Lore</h1> 
+                <br>
+                <p>Essa é a história de naruto:</p>
             </section>
             <section>
                 <p>Outro Teste</p>
             </section>
             <section>
-                <p>Mias um Teste</p>
+                <p>Mias um Teste</p><p>Mias um Teste</p><p>Mias um Teste</p><p>Mias um Teste</p><p>Mias um Teste</p>
             </section>
         </div>
         <footer>
@@ -51,5 +57,7 @@
             </dl>
         </footer>
     </div>
+
+    <script src="JS/responsive.js"></script>
 </body>
 </html>
