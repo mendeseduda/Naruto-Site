@@ -1,5 +1,11 @@
 var aberto = false;
 
+window.onclick = function(event) {
+    if (event.target == document.getElementById("Sidenav_id")) {
+        closeNav();
+    }
+}
+
 function openNav() {
     if (aberto === false){
         document.getElementById("Sidenav_id").style.width = "250px";
