@@ -17,17 +17,61 @@ body{
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
 
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.99);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 50px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.5s;
+}
+
+.sidenav a:hover {
+    background: rgb(61, 59, 56);
+    box-shadow: 0 0 20px rgb(61, 59, 56);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 36px;
+    padding: 0;
+    height: 50px;
+    width: 60px;
+    text-align: center;
+
+}
+
+header{
+    position: fixed;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    min-width: 100%;
+    background: rgba(0,0,0,.99);
+}
+
 nav{
     display: flex;
-    background: rgba(0,0,0,.99);
-    margin: 0;
-    top: 0;
-    width: 100%;
+    max-width: 1200px;
     height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    position: fixed;
     overflow: hidden;
 }
 
@@ -38,6 +82,10 @@ nav ul{
 nav ul > li{
     display: flex;
     text-decoration: none;
+}
+
+.navigator{
+    padding: 0;
 }
 
 .navigator a{
@@ -55,7 +103,6 @@ nav ul > li{
 }
 
 .navigator-right{
-    width: 1050px;
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -147,9 +194,10 @@ section > *{
     nav > ul{
         display: none;
     }  
-    .navigator-right{
-        width: auto;
-    }  
+    header nav{
+        margin-left: 10px;  
+        width: 100%;
+    }
     .responsive-menu{
         display: flex;
         width: 100%;
@@ -194,6 +242,12 @@ section > *{
 }
 
 @media screen and (max-width: 767px){
+    .sidenav{
+        padding-top: 15px;
+    }
+    .sidenav a{
+        font-size: 18px;
+    }
     nav > ul{
         display: none;
     }  

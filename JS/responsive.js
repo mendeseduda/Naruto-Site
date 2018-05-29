@@ -1,8 +1,16 @@
-function dropdownMenu() {
-    var x = document.getElementById("Topnav_id");
-    if (x.className === "nav") {
-        x.className += " responsive";
+var aberto = false;
+
+function openNav() {
+    if (aberto === false){
+        document.getElementById("Sidenav_id").style.width = "250px";
+        aberto = true;
+        console.log(aberto);
     } else {
-        x.className = "nav";
+        closeNav();
     }
+}
+
+function closeNav() {
+    document.getElementById("Sidenav_id").style.width = "0";
+    aberto = false;
 }

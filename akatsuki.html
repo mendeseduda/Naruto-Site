@@ -5,36 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="StyleSheets/Pagina_Template.css">
-    <title>Akatsuki</title>
+    <title>Lore</title>
+    <script src=""></script>
 </head>
 <body>
-    <nav>
-        <ul class="navigator">
-            <li><a id="nav-first-link" href="">Lore</a></li>
-            <li><a href="">Chakra</a></li>
-            <li><a href="">Bijuus</a></li>
-            <li><a href="">Akatsuki</a></li>
-            <li><a href="">Review</a></li>
-        </ul>
-        <ul class="navigator-right">
-            <li class="characterName"><p>Naruto</p></li>
-            <li><img src="Resources/naruto.jpg" class="img-circle"></li>
-            <li><img src="Resources/Vs.png" id="Vs"></li>
-            <li><img src="Resources/sasuke.jpg" class="img-circle" ></li>
-            <li class="characterName"><p>Sasuke</p></li>
-        </ul>
-    </nav>
+    <div id="Sidenav_id" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Lore</a>
+        <a href="#">Chakra</a>
+        <a href="#">Bijuus</a>
+        <a href="#">Akatsuki</a>
+        <a href="#">Review</a>
+    </div>
+    <header>
+        <nav id="Topnav_id" class="nav">
+            <ul class="navigator">
+                <li><a href="">Lore</a></li>
+                <li><a href="">Chakra</a></li>
+                <li><a href="">Bijuus</a></li>
+                <li><a href="">Akatsuki</a></li>
+                <li><a href="">Review</a></li>
+            </ul>
+            <ul class="navigator-right">
+                <li class="characterName"><p>Naruto</p></li>
+                <li><img src="Resources/naruto.jpg" class="img-circle"></li>
+                <li><img src="Resources/Vs.png" id="Vs"></li>
+                <li><img src="Resources/sasuke.jpg" class="img-circle" ></li>
+                <li class="characterName"><p>Sasuke</p></li>
+            </ul>
+            <div class="responsive-menu">
+                <a class="icon" href="javascript:void(0);" onclick="openNav()"><img id="menu-icon" src="Resources/menu.png" alt=""></a>
+            </div>
+        </nav>
+    </header>
     
     <div class="container-area">
         <div class="container"> 
             <section>
-                <p>Teste</p>
+                <h1>Lore</h1> 
+                <br>
+                <p>Essa é a história de naruto:</p>
             </section>
             <section>
                 <p>Outro Teste</p>
             </section>
             <section>
-                <p>Mias um Teste</p>
+                <p>Mias um Teste</p><p>Mias um Teste</p><p>Mias um Teste</p><p>Mias um Teste</p><p>Mias um Teste</p>
             </section>
         </div>
         <footer>
@@ -51,5 +67,7 @@
             </dl>
         </footer>
     </div>
+
+    <script src="JS/responsive.js"></script>
 </body>
 </html>
