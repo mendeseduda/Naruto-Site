@@ -150,6 +150,21 @@ nav ul > li{
     -webkit-text-fill-color: transparent;
 }
 
+.container-voto{
+    display: none;
+    width: 250px;
+    background-color: rgb(250, 11, 11);
+    border-radius: 12px;
+}
+
+.votos{
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    background-color: orangered;
+    border-radius: 12px;
+}
+
 .container-area{
     display: flex;
     justify-content: center;

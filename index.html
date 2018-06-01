@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="StyleSheets/Pagina_Template.css">
+    <link rel="shortcut icon" href="Resources/leaf-village.ico">
     <title>Lore</title>
     <script src=""></script>
 </head>
 <body>
+        <script src="JS/responsive.js"></script>
     <div id="Sidenav_id" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="#">Lore</a>
@@ -26,13 +28,16 @@
                 <li><a href="">Akatsuki</a></li>
                 <li><a href="">Review</a></li>
             </ul>
-            <ul class="navigator-right">
+            <ul class="navigator-right" id="votacao_id">
                 <li class="characterName"><p>Naruto</p></li>
-                <li><img src="Resources/naruto.jpg" class="img-circle"></li>
+                <li><img src="Resources/naruto.jpg" id="naruto_id" class="img-circle"></li>
                 <li><img src="Resources/Vs.png" id="Vs"></li>
-                <li><img src="Resources/sasuke.jpg" class="img-circle" ></li>
+                <li><img src="Resources/sasuke.jpg" id="sasuke_id" class="img-circle" ></li>
                 <li class="characterName"><p>Sasuke</p></li>
             </ul>
+            <div class="container-voto">
+                <div class="votos" id="narutoBarra_id"></div>
+            </div>
             <div class="responsive-menu">
                 <a class="icon" href="javascript:void(0);" onclick="openNav()"><img id="menu-icon" src="Resources/menu.png" alt=""></a>
             </div>
