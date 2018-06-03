@@ -20,6 +20,8 @@ window.onload = function(){
                 votosNaruto++;
             } else if (event.target == document.getElementById("sasuke_id")){
                 votosSasuke++;
+            } else {
+                return;
             }
             totalVotos = votosNaruto + votosSasuke;
             var porcentagemNaruto, porcentagemSasuke;
