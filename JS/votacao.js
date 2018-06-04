@@ -30,10 +30,10 @@ window.onload = function(){
             console.log('Naruto votos = ' + porcentagemNaruto);
             console.log('Sasuke votos = ' + porcentagemSasuke);
             votacao.style.display = "none";
-            var narutoBarra = document.getElementById("narutoBarra_id");
-            narutoBarra.style.width = porcentagemNaruto + "%";
-            narutoBarra.innerHTML = porcentagemNaruto + "%";
-            document.getElementsByClassName("container-voto")[0].style.display = "block";  
+            var voteBarra = document.getElementById("voteBarra_id");
+            voteBarra.style.width = porcentagemNaruto + "%";
+            voteBarra.innerHTML = porcentagemNaruto + "%";
+            document.getElementById("votacao").style.display = "flex";  
             sessionStorage.setItem("narutoVotos", votosNaruto);
             sessionStorage.setItem("sasukeVotos", votosSasuke);
             sessionStorage.setItem("totalVotos", totalVotos);

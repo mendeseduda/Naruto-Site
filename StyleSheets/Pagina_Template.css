@@ -150,20 +150,26 @@ nav ul > li{
     -webkit-text-fill-color: transparent;
 }
 
-.container-voto{
+#votacao{
     display: none;
-    width: 200px;
-    background-color: rgb(250, 11, 11);
-    border-radius: 12px;
     margin-left: 10px;
+}
+
+.container-voto{
+    display: block;
+    width: 150px;
+    background-color: #f12711; 
+    border-radius: 6px;
+    margin: 17.5px;
 }
 
 .votos{
     text-align: center;
     line-height: 25px;
     color: white;
-    background-color: orangered;
-    border-radius: 12px;
+    background-color: #f5af19;
+    border-radius: 6px;
+    height: 100%;
 }
 
 .container-area{
@@ -270,6 +276,10 @@ section > *{
     .navigator-right{
         width: auto;
     }  
+    .container-voto{
+        width: 100px;
+        margin-left: 0;
+    }
     .responsive-menu{
         display: flex;
         width: 100%;
