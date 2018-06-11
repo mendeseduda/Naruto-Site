@@ -30,9 +30,20 @@ window.onload = function(){
             console.log('Naruto votos = ' + porcentagemNaruto);
             console.log('Sasuke votos = ' + porcentagemSasuke);
             votacao.style.display = "none";
-            var voteBarra = document.getElementById("voteBarra_id");
+            var voteBarra = document.getElementById("voteBarraNaruto_id");
+            var voteBarraResto = document.getElementById("voteBarraSasuke_id")
             voteBarra.style.width = porcentagemNaruto + "%";
+            voteBarraResto.style.width = porcentagemSasuke + "%";
+            if (porcentagemNaruto === 100){
             voteBarra.innerHTML = porcentagemNaruto + "%";
+            voteBarraResto.innerHTML = "";
+            } else if(porcentagemSasuke === 100){
+                voteBarra.innerHTML = "";
+                voteBarraResto.innerHTML = porcentagemSasuke + "%";
+            } else {
+                voteBarra.innerHTML = porcentagemNaruto + "%";
+                voteBarraResto.innerHTML = porcentagemSasuke + "%";
+            }
             document.getElementById("votacao").style.display = "flex";  
             sessionStorage.setItem("narutoVotos", votosNaruto);
             sessionStorage.setItem("sasukeVotos", votosSasuke);

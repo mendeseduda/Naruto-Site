@@ -153,23 +153,41 @@ nav ul > li{
 #votacao{
     display: none;
     margin-left: 10px;
+    padding-right: 15px;
 }
 
 .container-voto{
-    display: block;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
     width: 150px;
-    background-color: #f12711; 
+    background-color: #411f75; 
     border-radius: 6px;
-    margin: 17.5px;
+    margin: 20px;
+    font-size: 0.8em;
 }
 
-.votos{
+.img-circle[id]{
+    cursor: pointer;
+}
+
+.votosNaruto{
     text-align: center;
     line-height: 25px;
     color: white;
-    background-color: #ff9100;
-    border-radius: 6px;
+    background-color: #eb6300;
     height: 100%;
+    border-radius: 6px;
+    z-index: 1;
+}
+
+.votosSasuke{
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    background-color: #411f75;
+    height: 100%;
+    border-radius: 6px;
 }
 
 .container-area{
@@ -265,7 +283,7 @@ section > *{
 
 @media screen and (max-width: 767px){
     .sidenav{
-        padding-top: 15px;
+        padding-top: 50px;
     }
     .sidenav a{
         font-size: 18px;
@@ -278,7 +296,7 @@ section > *{
     }  
     .container-voto{
         width: 100px;
-        margin-left: 0;
+        margin: 20px;
     }
     .responsive-menu{
         display: flex;
@@ -301,6 +319,47 @@ section > *{
     }
     .container{
         width: 500px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .sidenav{
+        padding-top: 50px;
+    }
+    .sidenav a{
+        font-size: 18px;
+    }
+    nav > ul{
+        display: none;
+    }  
+    .navigator-right{
+        width: auto;
+    }  
+    .container-voto{
+        width: 100px;
+        margin: 20px;
+    }
+    .responsive-menu{
+        display: flex;
+        width: 100%;
+        margin-right: 10px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .icon{
+        display: block;
+    }
+    .img-circle{
+        margin: 0 5px;
+    }
+    .characterName{
+        display: none;
+    }
+    .container-area{
+        font-size: 0.7em;
+    }
+    .container{
+        width: 100%;
     }
 }
 
