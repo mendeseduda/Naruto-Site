@@ -1,9 +1,56 @@
 .container{
-    height: 2600px;
+    margin: 120px;
+    height: 1500px;
 }
 
-#raposa{
+.wrapper-bijuus{
+    position: relative;
+    height: 24em !important;
+    width: 24em !important;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+    border: dashed 1px;
+    border-radius: 50%;
+    margin: 1.75em auto 0;
+}
+
+.img-bijuus{
     position: absolute;
+    top: 50%;
     left: 50%;
-    top: 143px;
+}
+
+.deg0{
+    transform: translate(400px);
+}
+
+.deg40{
+    transform: rotate(40deg) translate(400px) rotate(-40deg);
+}
+
+.deg80{
+    transform: rotate(80deg) translate(400px) rotate(-80deg);
+}
+
+.deg120{
+    transform: rotate(120deg) translate(400px) rotate(-120deg);
+}
+
+.deg160{
+    transform: rotate(160deg) translate(400px) rotate(-160deg);
+}
+
+.deg200{
+    transform: rotate(200deg) translate(400px) rotate(-200deg);
+}
+
+.deg240{
+    transform: rotate(240deg) translate(400px) rotate(-240deg);
+}
+
+.deg280{
+    transform: rotate(280deg) translate(400px) rotate(-280deg);
+}
+
+.deg320{
+    transform: rotate(320deg) translate(400px) rotate(-320deg);
 }
