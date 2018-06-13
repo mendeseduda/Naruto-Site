@@ -1,56 +1,64 @@
+:root{
+    --raio: 500px;
+}
+
 .container{
-    margin: 120px;
+    margin: 120px 0 0;
     height: 1500px;
 }
 
 .wrapper-bijuus{
     position: relative;
-    height: 24em !important;
-    width: 24em !important;
-    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
-    border: dashed 1px;
+    height: 1000px !important;
+    width: 1000px !important;
+    padding: 11150;
     border-radius: 50%;
     margin: 1.75em auto 0;
 }
 
 .img-bijuus{
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 250px !important;
+    height: 250px !important;
+    margin: -125px;
+    background-color: white;
 }
 
 .deg0{
-    transform: translate(400px);
+    transform: translate(var(--raio));
 }
 
 .deg40{
-    transform: rotate(40deg) translate(400px) rotate(-40deg);
+    transform: rotate(40deg) translate(var(--raio)) rotate(-40deg);
 }
 
 .deg80{
-    transform: rotate(80deg) translate(400px) rotate(-80deg);
+    transform: rotate(80deg) translate(var(--raio)) rotate(-80deg);
 }
 
 .deg120{
-    transform: rotate(120deg) translate(400px) rotate(-120deg);
+    transform: rotate(120deg) translate(var(--raio)) rotate(-120deg);
 }
 
 .deg160{
-    transform: rotate(160deg) translate(400px) rotate(-160deg);
+    transform: rotate(160deg) translate(var(--raio)) rotate(-160deg);
 }
 
 .deg200{
-    transform: rotate(200deg) translate(400px) rotate(-200deg);
+    transform: rotate(200deg) translate(var(--raio)) rotate(-200deg);
 }
 
 .deg240{
-    transform: rotate(240deg) translate(400px) rotate(-240deg);
+    transform: rotate(240deg) translate(var(--raio)) rotate(-240deg);
 }
 
 .deg280{
-    transform: rotate(280deg) translate(400px) rotate(-280deg);
+    transform: rotate(280deg) translate(var(--raio)) rotate(-280deg);
 }
 
 .deg320{
-    transform: rotate(320deg) translate(400px) rotate(-320deg);
+    transform: rotate(320deg) translate(var(--raio)) rotate(-320deg);
 }
