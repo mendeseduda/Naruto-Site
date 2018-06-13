@@ -1,0 +1,9 @@
+.container{
+    height: 2600px;
+}
+
+#raposa{
+    position: absolute;
+    left: 50%;
+    top: 143px;
+}

@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="StyleSheets/Pagina_Template.css">
+    <link rel="stylesheet" href="StyleSheets/master.css">                       
     <link rel="shortcut icon" href="Resources/leaf-village.ico">
-    <title>Lore</title>
-    <script src=""></script>
+    <title>Review</title>
 </head>
 <body>
+        <script src="JS/responsive.js"></script>
     <div id="Sidenav_id" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="#">Lore</a>
@@ -21,19 +22,27 @@
     <header>
         <nav id="Topnav_id" class="nav">
             <ul class="navigator">
-                <li><a href="">Lore</a></li>
-                <li><a href="">Chakra</a></li>
-                <li><a href="">Bijuus</a></li>
-                <li><a href="">Akatsuki</a></li>
-                <li><a href="">Review</a></li>
+                <li><a href="index.html">Lore</a></li>
+                <li><a href="chakra.html">Chakra</a></li>
+                <li><a href="bijuus.html">Bijuus</a></li>
+                <li><a href="akatsuki.html">Akatsuki</a></li>
+                <li><a href="review.html">Review</a></li>
             </ul>
-            <ul class="navigator-right">
+            <ul class="navigator-right" id="votacao_id">
                 <li class="characterName"><p>Naruto</p></li>
-                <li><img src="Resources/naruto.jpg" class="img-circle"></li>
+                <li><img src="Resources/naruto.jpg" id="naruto_id" class="img-circle"></li>
                 <li><img src="Resources/Vs.png" id="Vs"></li>
-                <li><img src="Resources/sasuke.jpg" class="img-circle" ></li>
+                <li><img src="Resources/sasuke.jpg" id="sasuke_id" class="img-circle" ></li>
                 <li class="characterName"><p>Sasuke</p></li>
             </ul>
+            <div id="votacao">
+                <img title="Naruto" class="img-circle" src="Resources/naruto.jpg">
+                <div class="container-voto">
+                    <div class="votosNaruto" id="voteBarraNaruto_id"><span></span></div>
+                    <div class="votosSasuke" id="voteBarraSasuke_id"><span></span></div>
+                </div>
+                <img title="Sasuke" class="img-circle" src="Resources/sasuke.jpg">
+            </div>
             <div class="responsive-menu">
                 <a class="icon" href="javascript:void(0);" onclick="openNav()"><img id="menu-icon" src="Resources/menu.png" alt=""></a>
             </div>
@@ -51,24 +60,44 @@
                 <p>Outro Teste</p>
             </section>
             <section>
-                <p>Mias um Teste</p><p>Mias um Teste</p><p>Mias um Teste</p><p>Mias um Teste</p><p>Mias um Teste</p>
+                <p>Mais um Teste</p><p>Mais um Teste</p><p>Mais um Teste</p><p>Mais um Teste</p><p>Mais um Teste</p>
             </section>
+        </div>
+        <div id="Eduardo-modal" class="modal-box">
+            <div class="modal-content">
+                <span onclick="closeModal()" class="close">&times;</span>
+                <h1>Eu sou o Eduardo!</h1>
+            </div>
+        </div>
+        <div id="Maia-modal" class="modal-box">
+            <div class="modal-content">
+                <span onclick="closeModal()" class="close">&times;</span>
+                <h1>Eu sou o Maia!</h1>
+            </div>
+        </div>
+        <div id="Aldeia-Juliana-modal" class="modal-box">
+            <div class="modal-content">
+                <span onclick="closeModal()" class="close">&times;</span>
+                <h1>Eu sou a aldeia!</h1>
+            </div>
         </div>
         <footer>
             <dl id="rodape">
                 <dt>Um trabalho elaborado por: 
-                    <dd>Dudu Timão</dd>
-                    <dd>Maia Pianinho</dd>
+                    <dd id="Eduardo_id" class="btn">Dudu Timão</dd>
+                    <dd id="Maia_id" class="btn">Maia Pianinho</dd>
                 </dt>
             </dl>
             <dl>
                 <dt>Contribuidores:
-                    <dd>Aldeia da Juliana</dd>
+                    <dd id="Aldeia_id" class="btn">Aldeia da Juliana</dd>
                 </dt>
             </dl>
         </footer>
     </div>
 
     <script src="JS/responsive.js"></script>
+    <script src="JS/votacao.js"></script>
+    <script src="JS/modalBox.js"></script>
 </body>
 </html>
