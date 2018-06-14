@@ -1,17 +1,18 @@
 :root{
-    --raio: 500px;
+    --raio: 21.5em; /* 12em = half the width of the wrapper */
 }
 
 .container{
-    margin: 120px 0 0;
-    height: 1500px;
+    margin: 35px auto 0 !important;
+    width: 100% !important;
+    height: auto;
 }
 
 .wrapper-bijuus{
     position: relative;
-    height: 1000px !important;
-    width: 1000px !important;
-    padding: 11150;
+    height: 48em !important;
+    width: 48em !important;
+    padding: 6.65em; /*= 2em * 1.4 (2em = half the width of an img, 1.4 = sqrt(2))*/
     border-radius: 50%;
     margin: 1.75em auto 0;
 }
@@ -21,10 +22,106 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 250px !important;
-    height: 250px !important;
-    margin: -125px;
+    width: 9.5em !important;
+    height: 9.5em!important;
+    margin: -4.75em;/* 2em = 4em/2 */ /* half the width */
     background-color: white;
+    cursor: pointer;
+}
+
+.wrapper-bijuus img{
+    display: block;
+}
+
+@media screen and (max-width: 991px){
+    :root{
+        --raio: 17.5em;
+    }
+
+    .wrapper-bijuus{
+        height: 40em !important;
+        width: 40em !important;
+    }
+}
+
+@media screen and (max-width: 768px){
+    :root{
+        --raio: 17em;
+    }
+
+    .wrapper-bijuus{
+        height: 34em !important;
+        width: 34em !important;
+    }
+}
+
+@media screen and (max-width: 500px){
+    :root{
+        --raio: 15em;   
+    }
+
+    .container{
+        margin-top: 100px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .wrapper-bijuus{
+        height: 30em !important;
+        width: 30em !important;
+        padding: 5.25em !important;
+    }
+
+    .img-bijuus{
+        width: 7.5em !important;
+        height: 7.5em !important;
+        margin: -3.75em !important;
+    }
+}
+
+@media screen and (max-width: 415px){
+    :root{
+        --raio: 11em;   
+    }
+
+    .container{
+        margin-top: 100px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .wrapper-bijuus{
+        height: 22em !important;
+        width: 22em !important;
+        padding: 4.375em !important;
+    }
+
+    .img-bijuus{
+        width: 6.25em !important;
+        height: 6.25em !important;
+        margin: -3.125em !important;
+    }
+}
+
+@media screen and (max-width: 359px){
+    :root{
+        --raio: 10em;   
+    }
+
+    .container{
+        margin-top: 100px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .wrapper-bijuus{
+        height: 20em !important;
+        width: 20em !important;
+        padding: 3.5em !important;
+    }
+
+    .img-bijuus{
+        width: 5em !important;
+        height: 5em !important;
+        margin: -2.5em !important;
+    }
 }
 
 .deg0{
