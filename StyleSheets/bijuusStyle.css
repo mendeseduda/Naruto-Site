@@ -2,11 +2,11 @@
     --raio: 21.5em; /* 12em = half the width of the wrapper */
 }
 
-.container{
+/*.container{
     margin: 35px auto 0 !important;
     width: 100% !important;
     height: auto;
-}
+}*/
 
 .wrapper-bijuus{
     position: relative;
@@ -15,6 +15,7 @@
     padding: 6.65em; /*= 2em * 1.4 (2em = half the width of an img, 1.4 = sqrt(2))*/
     border-radius: 50%;
     margin: 1.75em auto 0;
+    display: none;
 }
 
 .img-bijuus{
@@ -31,6 +32,24 @@
 
 .wrapper-bijuus img{
     display: block;
+}
+
+.container{
+    margin-top: 0 !important;
+}
+
+.hero-image{
+    background-image: url("../Resources/Bijuus/Shukaku_Fundo.png");
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+section{
+    width: 100% !important;
+    padding: 0 !important;
 }
 
 @media screen and (max-width: 991px){
