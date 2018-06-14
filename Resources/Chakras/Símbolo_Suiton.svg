@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3347"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   width="100"
+   height="100"
+   sodipodi:docname="Nature Icon Water.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs3350">
+    <linearGradient
+       id="linearGradientWater">
+      <stop
+         offset="0"
+         id="stopWater0"
+         style="stop-color:#51a8ff;stop-opacity:1" />
+      <stop
+         id="stopWater1"
+         offset="1"
+         style="stop-color:#007fff;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient
+       gradientTransform="matrix(1.8867925,0,0,1.8867925,-166.98114,-794.0796)"
+       r="26.5"
+       fy="447.36218"
+       fx="115"
+       cy="447.36218"
+       cx="115"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradientWater"
+       xlink:href="#linearGradientWater"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="930"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="7.1699998"
+     inkscape:cx="49.999997"
+     inkscape:cy="49.999994"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:current-layer="svg3347" />
+  <path
+     style="fill:url(#radialGradientWater);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.6603775;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 2.830185,31.132081 L 31.132072,2.8301935 L 68.867922,2.8301935 L 97.16981,31.132081 L 97.16981,68.867931 L 68.867922,97.169819 L 31.132072,97.169819 L 2.830185,68.867931 L 2.830185,31.132081 z"
+     id="Water icon"
+     sodipodi:nodetypes="ccccccccc" />
+  <path
+     transform="scale(0.9847319,1.0155048)"
+     style="font-size:63.70233536px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+     d="M 76.529986,73.373775 C 66.74234,66.73812 59.194285,57.116423 53.885797,44.508654 L 53.885797,73.124937 C 53.885762,75.779198 52.558631,77.106329 49.904401,77.106333 L 43.932307,77.106333 L 42.936958,72.378426 L 47.913703,72.378426 C 48.577239,72.378426 48.909022,72.046643 48.909052,71.383077 L 48.909052,21.36679 L 53.636959,21.36679 C 54.964056,21.532732 55.047001,22.030406 53.885797,22.859813 L 53.885797,30.076094 C 53.885762,33.725745 55.295838,38.03892 58.11603,43.01563 C 61.931492,40.361398 66.16172,36.214115 70.80673,30.573768 L 75.2858,35.052838 C 76.1152,36.380006 75.617526,36.87768 73.792777,36.545862 C 69.81133,40.195507 65.332264,43.762171 60.355565,47.245864 C 65.166372,55.706347 71.553189,62.507891 79.516033,67.650518 L 76.529986,73.373775 L 76.529986,73.373775 z M 45.42533,39.034234 C 42.771043,54.793944 35.886552,66.240446 24.771839,73.373775 L 22.034629,68.148192 C 31.158649,63.005565 37.130737,53.798596 39.950911,40.527258 L 25.518351,40.527258 L 25.518351,35.79935 L 39.950911,35.79935 L 41.443934,33.808652 L 45.674168,36.794699 C 46.83538,37.4583 46.752435,38.204811 45.42533,39.034234 L 45.42533,39.034234 z"
+     id="Water kanji" />
+</svg>

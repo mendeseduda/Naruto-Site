@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3347"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   width="100"
+   height="100"
+   sodipodi:docname="Nature Icon Earth.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs3350">
+    <linearGradient
+       id="linearGradientEarth">
+      <stop
+         offset="0"
+         id="stopEarth0"
+         style="stop-color:#ba771c;stop-opacity:1" />
+      <stop
+         id="stopEarth1"
+         offset="1"
+         style="stop-color:#734a12;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient
+       gradientTransform="matrix(1.8867925,0,0,1.8867925,-478.3019,-586.53243)"
+       r="26.5"
+       fy="337.36218"
+       fx="280"
+       cy="337.36218"
+       cx="280"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradientEarth"
+       xlink:href="#linearGradientEarth"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="930"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="7.17"
+     inkscape:cx="49.999999"
+     inkscape:cy="49.999998"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:current-layer="svg3347" />
+  <path
+     style="fill:url(#radialGradientEarth);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.6603775;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 2.8301875,31.132076 L 31.132075,2.8301885 L 68.867925,2.8301885 L 97.169813,31.132076 L 97.169813,68.867926 L 68.867925,97.169814 L 31.132075,97.169814 L 2.8301875,68.867926 L 2.8301875,31.132076 z"
+     id="Earth icon"
+     sodipodi:nodetypes="ccccccccc" />
+  <path
+     id="Earth kanji"
+     d="M 52.620526,21.698131 C 54.367529,22.071821 54.454874,22.819066 52.882597,23.939864 L 52.882597,39.351786 L 73.322834,39.351786 L 73.322834,45.516559 L 52.882597,45.516559 L 52.882597,72.13715 L 78.301882,72.13715 L 78.301882,78.301923 L 21.698108,78.301923 L 21.698108,72.13715 L 46.855341,72.13715 L 46.855341,45.516559 L 26.415085,45.516559 L 26.415085,39.351786 L 46.855341,39.351786 L 46.855341,21.698131 L 52.620526,21.698131 z"
+     style="font-size:36.76704025px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:MS Gothic;-inkscape-font-specification:MS Gothic" />
+</svg>

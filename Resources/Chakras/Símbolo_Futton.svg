@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3347"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   width="100"
+   height="100"
+   sodipodi:docname="Nature Icon Boil.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs3350">
+    <linearGradient
+       id="linearGradientBoil">
+      <stop
+         offset="0"
+         id="stopBoil0"
+         style="stop-color:#ffffff;stop-opacity:1" />
+      <stop
+         id="stopBoil1"
+         offset="1"
+         style="stop-color:#b00000;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       r="50"
+       fy="50"
+       fx="50"
+       cy="50"
+       cx="50"
+       id="radialGradientBoil"
+       xlink:href="#linearGradientBoil"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="930"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="50"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="-108.9291"
+     inkscape:cy="74.076906"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:current-layer="svg3347"
+     inkscape:snap-center="true"
+     inkscape:object-paths="false"
+     inkscape:object-nodes="true" />
+  <path
+     style="fill:url(#radialGradientBoil);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.6603775;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 2.8301888,31.132074 L 12.264152,21.698111 L 12.264152,12.264149 L 21.698114,12.264149 L 31.132076,2.8301862 L 68.867926,2.8301862 L 78.301889,12.264149 L 87.735852,12.264149 L 87.735852,21.698111 L 97.169814,31.132074 L 97.169814,68.867924 L 87.735852,78.301886 L 87.735852,87.735849 L 78.301889,87.735849 L 68.867926,97.169811 L 31.132076,97.169811 L 21.698114,87.735849 L 12.264152,87.735849 L 12.264152,78.301886 L 2.8301888,68.867924 L 2.8301888,31.132074 z"
+     id="Boil icon"
+     sodipodi:nodetypes="ccccccccccccccccccccc" />
+  <path
+     transform="scale(0.997861,1.0021436)"
+     style="font-size:17.23847008px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+     d="M 70.470123,47.347682 L 70.470123,45.893186 L 65.379387,45.893186 L 65.379387,52.196002 L 78.46985,52.196002 L 77.500186,65.044049 C 77.176907,68.761097 75.399192,70.619618 72.167035,70.619616 L 68.530795,70.619616 L 68.045963,66.013712 L 70.712539,66.013712 C 72.328592,66.013719 73.136645,65.044056 73.136698,63.104721 L 73.379114,56.801905 L 65.379387,56.801905 L 65.379387,77.407263 L 60.531068,77.407263 L 60.531068,56.801905 L 54.9555,56.801905 C 55.117075,67.791434 49.864734,74.902296 39.198461,78.134511 L 37.259134,73.043776 C 45.824472,70.781228 50.10715,65.367277 50.10718,56.801905 L 44.531613,56.801905 L 44.046781,60.680561 L 39.198461,60.438145 L 40.895373,41.287283 L 50.10718,41.287283 L 50.10718,34.742051 L 39.198461,34.742051 L 39.198461,30.136147 L 50.10718,30.136147 L 50.10718,21.651588 L 54.713084,21.651588 C 56.005933,21.813249 56.086738,22.298081 54.9555,23.106084 L 54.9555,30.136147 L 60.531068,30.136147 L 60.531068,21.651588 L 65.136971,21.651588 C 66.42981,21.813249 66.510615,22.298081 65.379387,23.106084 L 65.379387,30.136147 L 75.318442,30.136147 L 75.318442,47.347682 L 70.470123,47.347682 z M 26.107998,38.620707 C 30.148254,40.398456 33.299659,42.499392 35.562222,44.923522 L 32.410814,49.771842 C 29.986644,47.186096 26.99685,44.842744 23.441423,42.741778 L 26.107998,38.620707 z M 50.10718,52.196002 L 50.10718,45.893186 L 45.501277,45.893186 L 45.016445,52.196002 L 50.10718,52.196002 z M 60.531068,45.893186 L 54.9555,45.893186 L 54.9555,52.196002 L 60.531068,52.196002 L 60.531068,45.893186 z M 60.531068,41.287283 L 60.531068,34.742051 L 54.9555,34.742051 L 54.9555,41.287283 L 60.531068,41.287283 z M 70.470123,41.287283 L 70.470123,34.742051 L 65.379387,34.742051 L 65.379387,41.287283 L 70.470123,41.287283 z M 28.047326,24.318164 C 31.92597,25.934317 35.077374,27.954448 37.50155,30.378563 L 34.350142,34.984467 C 32.08758,32.883568 29.016981,30.782631 25.138335,28.681652 L 28.047326,24.318164 z M 21.744511,73.043776 C 27.077655,66.417745 30.713891,60.276546 32.65323,54.620161 L 36.774302,57.529153 C 35.31979,62.215872 32.249191,68.19546 27.562494,75.467936 C 27.885707,76.760816 27.643292,77.084037 26.835246,76.4376 L 21.744511,73.043776 L 21.744511,73.043776 z"
+     id="Boil kanji" />
+</svg>

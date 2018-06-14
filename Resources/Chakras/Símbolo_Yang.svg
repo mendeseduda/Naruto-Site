@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3347"
+   sodipodi:version="0.32"
+   inkscape:version="0.47 r22583"
+   width="100"
+   height="100"
+   sodipodi:docname="Nature Icon Yang.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <metadata
+     id="metadata11">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3350">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 50 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="100 : 50 : 1"
+       inkscape:persp3d-origin="50 : 33.333333 : 1"
+       id="perspective13" />
+    <linearGradient
+       id="linearGradientYang">
+      <stop
+         offset="0"
+         id="stopYang0"
+         style="stop-color:#ffffff;stop-opacity:1" />
+      <stop
+         id="stopYang1"
+         offset="1"
+         style="stop-color:#dcdcdc;stop-opacity:1;" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradientYang"
+       id="radialGradientYang"
+       cx="49.999996"
+       cy="50.000008"
+       fx="49.999996"
+       fy="50.000008"
+       r="50"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="940"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="1.31"
+     inkscape:cx="41.221374"
+     inkscape:cy="15.483019"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:current-layer="svg3347"
+     inkscape:window-maximized="1"
+     inkscape:snap-object-midpoints="true" />
+  <path
+     style="fill:url(#radialGradientYang);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.6603775;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 2.830185,31.132081 28.301887,-28.3018875 37.73585,0 28.301888,28.3018875 0,37.73585 -28.301888,28.301888 -37.73585,0 -28.301887,-28.301888 0,-37.73585 z"
+     id="Yang icon"
+     sodipodi:nodetypes="ccccccccc" />
+  <path
+     d="m 34.562542,43.392048 c 3.258997,4.32221 4.888504,8.810628 4.888527,13.465275 -2.3e-5,6.483283 -1.972585,9.724914 -5.91769,9.724914 l -3.087491,0 -1.029164,-4.987137 2.572909,0 c 1.715256,1.1e-5 2.487127,-1.745485 2.315618,-5.236496 -0.171545,-4.820876 -1.715288,-9.059935 -4.631236,-12.717196 l 5.145818,-16.208197 -7.976018,0 0,49.871368 -5.145818,0 0,-53.861078 14.408291,0 1.029164,-1.246786 4.373944,3.74036 -1.029163,0.997427 z m 37.307182,13.963983 -2.572909,0 C 66.55233,69.491399 57.375628,76.473381 41.766688,78.302006 L 40.222942,73.564229 C 53.602033,72.566801 61.663806,67.164076 64.408288,57.356031 l -3.602073,0 C 57.89021,64.338033 51.715234,68.577092 42.28127,70.073228 l -1.543746,-4.239059 c 7.890223,-1.662375 12.778745,-4.488418 14.665582,-8.478138 l -4.116655,0 c -2.401414,2.327345 -5.488902,4.15596 -9.262473,5.485856 l -2.058327,-4.239069 c 5.488844,-1.662365 9.26244,-4.820887 11.3208,-9.475565 l -11.578089,0 0,-3.989709 38.593635,0 0,3.989709 -21.612435,0 c -0.686149,1.496167 -1.543785,2.909183 -2.57291,4.239069 l 22.6416,0 -0.514581,15.709478 c -0.171589,5.319616 -2.144149,7.979419 -5.917693,7.979419 l -5.145818,0 -0.771872,-4.737777 4.373945,0 c 1.543691,0 2.401327,-0.997428 2.572909,-2.992282 z m -21.869727,-19.449828 17.495782,0 0,-4.239069 -17.495782,0 z m 0,-8.228778 17.495782,0 0,-3.98971 -17.495782,0 z m 21.869727,-7.979419 0,20.197907 -26.243673,0 0,-20.197907 z"
+     style="font-size:62px;font-family:MS Gothic;-inkscape-font-specification:MS Gothic"
+     id="Yang kanji" />
+</svg>
