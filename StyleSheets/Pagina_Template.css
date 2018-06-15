@@ -214,7 +214,7 @@ nav ul > li{
     justify-content: center;
 }
 
-.container > section{
+.container section{
     align-self: center;
     background-color: #fff;
     width: 100%;

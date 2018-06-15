@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3347"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   width="100"
+   height="100"
+   sodipodi:docname="Nature Icon Fire.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs3350">
+    <linearGradient
+       id="linearGradientFire">
+      <stop
+         offset="0"
+         id="stopFire0"
+         style="stop-color:#ff0000;stop-opacity:1" />
+      <stop
+         id="stopFire1"
+         offset="1"
+         style="stop-color:#b00000;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       r="50"
+       fy="50"
+       fx="49.999996"
+       cy="50"
+       cx="49.999996"
+       id="radialGradientFire"
+       xlink:href="#linearGradientFire"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="930"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="7.1699998"
+     inkscape:cx="29.497905"
+     inkscape:cy="49.999999"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:current-layer="svg3347" />
+  <path
+     style="fill:url(#radialGradientFire);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.6603775;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 2.830185,31.132076 L 31.132072,2.8301885 L 68.867922,2.8301885 L 97.16981,31.132076 L 97.16981,68.867926 L 68.867922,97.169814 L 31.132072,97.169814 L 2.830185,68.867926 L 2.830185,31.132076 z"
+     id="Fire icon"
+     sodipodi:nodetypes="ccccccccc" />
+  <path
+     transform="scale(1.0137306,0.9864553)"
+     style="font-size:65.87233734px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:MS Gothic;-inkscape-font-specification:MS Gothic"
+     d="M 49.194117,54.932067 C 45.591694,66.08234 37.35766,74.230603 24.49199,79.37688 L 21.404224,72.944034 C 37.529202,67.797764 45.591694,57.590993 45.591723,42.32369 L 45.591723,21.995898 L 51.509941,22.510526 C 52.53916,22.853662 52.53916,23.539832 51.509941,24.569036 L 51.509941,42.32369 C 51.509906,55.532484 60.087024,65.481942 77.241323,72.172093 L 74.668185,78.604938 C 61.802448,73.458662 53.311101,65.567713 49.194117,54.932067 L 49.194117,54.932067 z M 72.35236,37.949355 C 69.092999,44.811086 66.348321,49.700044 64.118318,52.616243 L 58.972042,49.271163 C 62.059762,45.154171 64.890211,39.836357 67.463398,33.317706 L 73.124302,36.148158 C 74.153499,36.662823 73.896185,37.263222 72.35236,37.949355 L 72.35236,37.949355 z M 25.778559,51.586987 C 28.180143,47.126908 29.295168,41.380239 29.123639,34.346962 L 35.556484,35.890844 C 36.928804,36.40551 36.928804,37.005908 35.556484,37.692041 C 35.556465,42.666806 34.44144,47.98462 32.211405,53.645498 L 25.778559,51.586987 z"
+     id="Fire kanji" />
+</svg>

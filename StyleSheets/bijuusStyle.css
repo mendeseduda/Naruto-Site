@@ -38,18 +38,28 @@
     margin-top: 0 !important;
 }
 
+.descricaoBijuu{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
 .hero-image{
     background-image: url("../Resources/Bijuus/Shukaku_Fundo.png");
-    height: 250px;
+    height: 300px;
     width: 100%;
-    background-position: center;
+    background-position-y: -30px;
     background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
+    background-attachment: fixed;
 }
 
 section{
     width: 100% !important;
     padding: 0 !important;
+    border-radius: 0 0 10px 10px !important;
 }
 
 @media screen and (max-width: 991px){

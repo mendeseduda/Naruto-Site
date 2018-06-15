@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3347"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   width="100"
+   height="100"
+   sodipodi:docname="Nature Icon Wind.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs3350">
+    <linearGradient
+       id="linearGradientWind">
+      <stop
+         offset="0"
+         id="stopWind0"
+         style="stop-color:#00f89e;stop-opacity:1" />
+      <stop
+         id="stopWind1"
+         offset="1"
+         style="stop-color:#00a86b;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient
+       gradientTransform="matrix(1.8867925,0,0,1.8867925,-374.52831,-690.30602)"
+       r="26.5"
+       fy="392.36218"
+       fx="225"
+       cy="392.36218"
+       cx="225"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradientWind"
+       xlink:href="#linearGradientWind"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="930"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="7.1699998"
+     inkscape:cx="50.000003"
+     inkscape:cy="50.000002"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:current-layer="svg3347" />
+  <path
+     style="fill:url(#radialGradientWind);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.6603775;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 2.83019,31.132074 L 31.132078,2.830186 L 68.867928,2.830186 L 97.169815,31.132074 L 97.169815,68.867924 L 68.867928,97.169811 L 31.132078,97.169811 L 2.83019,68.867924 L 2.83019,31.132074 z"
+     id="Wind icon"
+     sodipodi:nodetypes="ccccccccc" />
+  <path
+     transform="scale(0.9568761,1.0450674)"
+     style="font-size:63.89712143px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:MS Gothic;-inkscape-font-specification:MS Gothic"
+     d="M 34.906269,65.690062 L 48.384568,65.190865 L 48.384568,55.20694 L 42.893409,55.20694 L 42.893409,59.20051 L 38.650241,59.20051 L 38.650241,39.981454 L 48.384568,39.981454 L 48.384568,35.23909 L 38.151045,35.488688 L 36.653456,30.746323 C 46.304558,30.91276 54.374889,30.330365 60.864475,28.999136 L 64.10925,33.491903 C 64.275605,34.656728 63.776409,34.906326 62.611662,34.240697 L 52.627736,34.989492 L 52.627736,39.981454 L 62.611662,39.981454 L 62.611662,55.20694 L 52.627736,55.20694 L 52.627736,64.941267 L 60.365278,64.192473 L 56.621306,59.450108 L 60.614876,56.704529 C 64.109206,60.36531 67.021182,64.275677 69.350811,68.435641 L 64.608447,71.430819 L 62.362063,67.686847 L 37.901447,70.931622 C 37.73503,72.096411 37.319034,72.346008 36.653456,71.680417 L 34.906269,65.690062 z M 74.342774,61.94609 C 75.840307,65.606866 76.838698,64.275677 77.337951,57.95252 L 81.830718,61.696492 C 81.165062,67.354051 80.16667,70.682023 78.83554,71.680417 C 76.006705,73.843596 73.09473,71.680414 70.099605,65.190865 C 68.102772,60.864506 67.104381,54.624559 67.104428,46.471006 L 67.104428,25.504763 L 34.656671,25.504763 L 34.656671,52.710959 C 34.656656,60.698107 31.82788,67.603649 26.170334,73.427604 L 22.675961,68.685239 C 27.335119,64.358876 29.664699,58.618125 29.664708,51.462968 L 29.664708,20.762398 L 72.09639,20.762398 L 72.09639,46.221407 C 72.096339,53.043772 72.845132,58.285328 74.342774,61.94609 L 74.342774,61.94609 z M 58.368493,43.975024 L 52.627736,43.975024 L 52.627736,51.21337 L 58.368493,51.21337 L 58.368493,43.975024 z M 48.384568,43.975024 L 42.893409,43.975024 L 42.893409,51.21337 L 48.384568,51.21337 L 48.384568,43.975024 z"
+     id="Wind kanji" />
+</svg>
