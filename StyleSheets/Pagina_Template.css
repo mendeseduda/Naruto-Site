@@ -130,7 +130,7 @@ nav ul > li{
     height: 60px;;
     border-radius: 50%;
     box-shadow: 0 0 5px black;
-    transition: all 0.5s;
+    transition: all 0.1s;
 }
 
 .img-circle:hover{

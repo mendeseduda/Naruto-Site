@@ -1,10 +1,122 @@
+:root{
+    --raio: 22em; /* 12em = half the width of the wrapper */
+    --reio: 11.5em;
+}
+
+.container{
+    width: 100% !important;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left:  auto;
+    margin-right: auto;
+    background: svg;
+}
 
 .wrapper-chakra{
     position: relative;
     height: 48em !important;
     width: 48em !important;
-    padding: 6.65em; /*= 2em * 1.4 (2em = half the width of an img, 1.4 = sqrt(2))*/
     border-radius: 50%;
-    margin: 1.75em auto 0;
-    display: none;
+}
+
+.img-chakra{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 7em !important;
+    height: 7em!important;
+    margin: -3.5em;
+    background-color: black;
+    cursor: pointer;
+}
+.yin{
+    position: absolute;
+    left: 15%;
+    top:30%;
+    }
+.yang{
+        position: absolute;
+        left: 15%;
+        top:70%;
+        }
+.oi{
+position: absolute;
+left: 15%;
+top:50%;
+}
+
+.wrapper-chakra img{
+    display: block;
+}
+
+.deg0{
+    transform: translate(var(--raio)) !important;
+}
+
+.deg36{
+    transform: rotate(36deg) translate(var(--raio)) rotate(-36deg);
+}
+
+.deg72{
+    transform: rotate(72deg) translate(var(--raio)) rotate(-72deg);
+}
+
+.deg108{
+    transform: rotate(108deg) translate(var(--raio)) rotate(-108deg);
+}
+.deg144{
+    transform: rotate(144deg) translate(var(--raio)) rotate(-144deg);
+}
+.deg180{
+    transform: rotate(180deg) translate(var(--raio)) rotate(-180deg);
+}
+
+.deg216{
+    transform: rotate(216deg) translate(var(--raio)) rotate(-216deg);
+}
+
+.deg252{
+    transform: rotate(252deg) translate(var(--raio)) rotate(-252deg);
+}
+.deg288{
+    transform: rotate(288deg) translate(var(--raio)) rotate(-288deg);
+}
+
+.deg324{
+    transform: rotate(324deg) translate(var(--raio)) rotate(-324deg);
+}
+
+
+.den0{
+    transform:  rotate(72deg) translate(var(--reio)) rotate(-72deg);
+}
+
+.den72{
+    transform: rotate(144deg) translate(var(--reio)) rotate(-144deg);
+}
+
+.den144{
+    transform: rotate(216deg) translate(var(--reio)) rotate(-216deg);
+}
+
+.den216{
+    transform: rotate(288deg) translate(var(--reio)) rotate(-288deg);
+}
+
+.den288{
+    transform: rotate(360deg) translate(var(--reio)) rotate(-360deg);
+}
+
+svg{
+   background-color: transparent;
+   position: absolute;
+   top: 0;
+   left: 50%;
+   z-index: -10;
+    
+}
+svg line{
+    stroke:rgb(7, 1, 1);
+    stroke-width: 5px;
 }
