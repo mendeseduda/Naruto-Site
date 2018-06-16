@@ -19,7 +19,7 @@
     width: 48em !important;
     padding: 6.65em; /*= 2em * 1.4 (2em = half the width of an img, 1.4 = sqrt(2))*/
     border-radius: 50%;
-    margin: 1.75em auto 0;
+    margin: 1em auto 0;    
 }
 
 .img-bijuus{
@@ -50,11 +50,9 @@
 }
 
 .hero-image{
-    background-image: url("../Resources/Bijuus/Shukaku_Fundo.png");
     height: 400px;
     width: 100%;
     background-position: center;
-    background-position: -200px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
