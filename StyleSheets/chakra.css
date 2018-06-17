@@ -1,6 +1,6 @@
 :root{
-    --raio: 22em; /* 12em = half the width of the wrapper */
-    --reio: 11.5em;
+    --raio: 18em; /* 12em = half the width of the wrapper */
+    --reio: 9em;
 }
 
 .container{
@@ -9,7 +9,11 @@
     margin-bottom: 100px;
     margin-left:  auto;
     margin-right: auto;
-    background: svg;
+    
+    
+}
+.container-area{
+   
 }
 
 .wrapper-chakra{
@@ -17,6 +21,8 @@
     height: 48em !important;
     width: 48em !important;
     border-radius: 50%;
+    background: svg;
+    
 }
 
 .img-chakra{
@@ -24,11 +30,12 @@
     position: absolute;
     top: 50%;
     left: 100%;
-    width: 7em !important;
-    height: 7em!important;
+    width: 6.5em !important;
+    height: 6.5em!important;
     margin: -3.5em;
     background-color: black;
     cursor: pointer;
+    z-index: 1;
 }
 
 .yin{
@@ -116,10 +123,16 @@ svg{
    position: absolute;
    width: 100%;
    height: 100%;;
-   z-index: -10;
-    
+   z-index: 0; 
 }
-svg line{
+line{
     stroke:rgb(7, 1, 1);
-    stroke-width: 5px;
+    stroke-width: 3.5px;
+    transition: all 0s;
+   
+}
+
+line:hover {    
+    stroke-width: 9px;
+    stroke-opacity: 50%;
 }
