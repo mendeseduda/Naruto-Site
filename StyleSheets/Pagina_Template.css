@@ -24,7 +24,7 @@ body{
     position: fixed;
     z-index: 2;
     top: 0;
-    right: 0;
+    left: 0;
     background-color: rgba(0,0,0,.99);
     overflow-x: hidden;
     transition: 0.5s;
@@ -131,6 +131,11 @@ nav ul > li{
     border-radius: 50%;
     box-shadow: 0 0 5px black;
     transition: all 0.1s;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .img-circle:hover{
@@ -250,7 +255,7 @@ section > *{
         width: 100%;
         margin-right: 10px;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: flex-start;
     }
     .icon{
         display: block;
@@ -278,7 +283,7 @@ section > *{
         width: 100%;
         margin-right: 10px;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: flex-start;
     }
     .icon{
         display: block;
@@ -310,7 +315,7 @@ section > *{
         width: 100%;
         margin-right: 10px;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: flex-start;
     }
     .icon{
         display: block;
@@ -351,7 +356,7 @@ section > *{
         width: 100%;
         margin-right: 10px;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: flex-start;
     }
     .icon{
         display: block;

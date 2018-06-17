@@ -57,6 +57,7 @@
     background-repeat: no-repeat;
     position: relative;
     background-attachment: fixed;
+    background-color: black;
 }
 
 .hero-text > h1{

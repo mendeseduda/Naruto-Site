@@ -2,6 +2,13 @@ var descricao = document.getElementById("descricao_id");
 var wrapper = document.getElementById("wrapper")
 var heroImage = document.getElementById("hero-image");
 var heroText = document.getElementById("hero-text");
+var voltarBtn = document.getElementById("voltar_id");
+
+document.getElementsByTagName
+
+voltarBtn.onclick = function(){
+    trocarTela();
+}
 
 function shukakuClick(){
     trocarTela();
@@ -44,29 +51,52 @@ function kokuoClick(){
 function saikenClick(){
     trocarTela();
     heroImage.style.backgroundImage = "url('Resources/Bijuus/Saiken_Fundo.png')";
-    heroImage.style.backgroundPositionY = "55px";
-    heroImage.style.backgroundPositionX = "130px";
+    heroImage.style.backgroundPositionY = "80px";
+    heroImage.style.backgroundPositionX = "160px";
     heroImage.style.backgroundSize = "contain";
     heroText.innerHTML = "Saiken";
 }
 
 function chomeiClick(){
     trocarTela();
+    heroImage.style.backgroundImage = "url('Resources/Bijuus/Chomei_Fundo.png')";
+    heroImage.style.backgroundPositionY = "-75px";
+    heroImage.style.backgroundPositionX = "90px";
+    heroImage.style.backgroundSize = "contain";
+    heroText.innerHTML = "Chomei";
 }
 
 function gyukiClick(){
     trocarTela();
+    heroImage.style.backgroundImage = "url('Resources/Bijuus/Gyuki_Fundo.png')";
+    heroImage.style.backgroundPositionY = "10px";
+    heroImage.style.backgroundPositionX = "-136px";
+    heroImage.style.backgroundSize = "contain";
+    heroText.innerHTML = "Gyuki";
 }
 
 function kuramaClick(){
     trocarTela();
+    heroImage.style.backgroundImage = "url('Resources/Bijuus/Kurama_Fundo.png')";
+    heroImage.style.backgroundPositionY = "-35px";
+    heroImage.style.backgroundSize = "contain";
+    heroText.innerHTML = "Kurama";
 }
 
 function shinjuClick(){
     trocarTela();
+    heroImage.style.backgroundImage = "url('Resources/Bijuus/Shinju.png')";
+    heroImage.style.backgroundPositionY = "-215px";
+    heroImage.style.backgroundSize = "contain";
+    heroText.innerHTML = "Shinju";
 }
 
 function trocarTela(){
-    descricao.style.display = "flex";
-    wrapper.style.display = "none";
+    if (descricao.style.display !== "flex"){
+        descricao.style.display = "flex";
+        wrapper.style.display = "none";
+    } else {
+        descricao.style.display = "none";
+        wrapper.style.display = "block";
+    }
 }

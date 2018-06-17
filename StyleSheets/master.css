@@ -37,3 +37,21 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+.btn-voltar{
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -620px;
+    cursor: pointer;
+    z-index: 10;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
