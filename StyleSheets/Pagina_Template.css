@@ -8,6 +8,11 @@
     src: url(../Resources/Fontes/Lato-Regular.ttf);
 }
 
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 body{
     margin: 0;
     margin-top: 80px;
@@ -160,6 +165,7 @@ nav ul > li{
     rgba(245,163,0,1) 42%, rgba(219,66,20,1) 61%, rgba(245,163,0,1) 83%, rgba(219,66,20,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 2px #041990);
 }
 
 #votacao{
@@ -379,8 +385,10 @@ footer {
     display: flex;
     background: rgba(0,0,0,.99);
     width: 100%;
+    max-height: 155px;
     padding: -5px 0;
     justify-content: space-around;
+    align-items: center;
     color: white;
     position: relative;
     bottom: 0;

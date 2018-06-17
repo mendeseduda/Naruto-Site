@@ -1,3 +1,4 @@
+var container = document.getElementById("container_id");
 var descricao = document.getElementById("descricao_id");
 var wrapper = document.getElementById("wrapper")
 var heroImage = document.getElementById("hero-image");
@@ -87,6 +88,7 @@ function shinjuClick(){
     trocarTela();
     heroImage.style.backgroundImage = "url('Resources/Bijuus/Shinju.png')";
     heroImage.style.backgroundPositionY = "-215px";
+    heroImage.style.backgroundPositionX = "-115px";
     heroImage.style.backgroundSize = "contain";
     heroText.innerHTML = "Shinju";
 }
@@ -95,8 +97,10 @@ function trocarTela(){
     if (descricao.style.display !== "flex"){
         descricao.style.display = "flex";
         wrapper.style.display = "none";
+        container.setAttribute('style', 'margin: 0 !important');
     } else {
         descricao.style.display = "none";
         wrapper.style.display = "block";
+        container.setAttribute('style', 'margin: 60px auto !important');
     }
 }

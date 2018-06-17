@@ -18,6 +18,12 @@ document.getElementById("Aldeia_id").onclick = function(){
     aberto = modal;
 }
 
+document.getElementById("Corno_id").onclick = function(){
+    var modal = document.getElementById("Corno-modal");
+    modal.style.display = "block";
+    aberto = modal;
+}
+
 function closeModal(){
     aberto.style.display = "none";
 }

@@ -5,15 +5,11 @@
 
 .container{
     width: 100% !important;
-    height: 800px;
-    margin-top: 0;
-    margin-bottom: 100px;
+    height: auto;
+    margin: 0 auto !important;
     display: flex;
     flex-direction: row !important;
     justify-content: center;
-}
-.container-area{
-   
 }
 
 .wrapper-chakra{
@@ -21,6 +17,7 @@
     height: 48em !important;
     width: 48em !important;
     border-radius: 50%;  
+    margin: 0 auto;
 }
 
 .img-chakra{
@@ -30,6 +27,7 @@
     left: 50%;
     width: 6.5em !important;
     height: 6.5em!important;
+    margin: -3.25em;
     background-color: black;
     cursor: pointer;
     z-index: 1;
@@ -52,14 +50,6 @@
     left: 15%;
     top:50%;
 }
-
-/*.yin-yang{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    display: flex;
-    flex-direction: column;
-}*/
 
 .yin-yang img:nth-child(2){
     margin: 50px 0;

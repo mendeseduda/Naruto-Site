@@ -7,19 +7,19 @@
     --raio: 21.5em; /* 12em = half the width of the wrapper */
 }
 
-/*.container{
-    margin: 35px auto 0 !important;
-    width: 100% !important;
+.container{
     height: auto;
-}*/
+    margin: 60px auto !important;
+    display: flex;
+    justify-content: center;
+}
 
 .wrapper-bijuus{
     position: relative;
     height: 48em !important;
     width: 48em !important;
-    padding: 6.65em; /*= 2em * 1.4 (2em = half the width of an img, 1.4 = sqrt(2))*/
     border-radius: 50%;
-    margin: 1em auto 0;    
+    margin: 0 auto;
 }
 
 .img-bijuus{
@@ -29,17 +29,18 @@
     left: 50%;
     width: 9.5em !important;
     height: 9.5em!important;
-    margin: -4.75em;/* 2em = 4em/2 */ /* half the width */
     background-color: white;
     cursor: pointer;
+    margin: -4.75em;   
+    filter: grayscale(100%);
+}
+
+.img-bijuus:hover{
+    filter: grayscale(0);
 }
 
 .wrapper-bijuus img{
     display: block;
-}
-
-.container{
-    margin-top: 0 !important;
 }
 
 .descricaoBijuu{
@@ -115,11 +116,6 @@ section{
         --raio: 15em;   
     }
 
-    .container{
-        margin-top: 100px !important;
-        margin-bottom: 30px !important;
-    }
-
     .wrapper-bijuus{
         height: 30em !important;
         width: 30em !important;
@@ -138,11 +134,6 @@ section{
         --raio: 11em;   
     }
 
-    .container{
-        margin-top: 100px !important;
-        margin-bottom: 30px !important;
-    }
-
     .wrapper-bijuus{
         height: 22em !important;
         width: 22em !important;
@@ -159,11 +150,6 @@ section{
 @media screen and (max-width: 359px){
     :root{
         --raio: 10em;   
-    }
-
-    .container{
-        margin-top: 100px !important;
-        margin-bottom: 30px !important;
     }
 
     .wrapper-bijuus{
