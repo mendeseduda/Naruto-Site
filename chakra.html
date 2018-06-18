@@ -50,28 +50,42 @@
             
         </nav>
     </header>
-    <div class="container-area">
-        <div class="container"> 
-            <div class="wrapper-chakra">
-                <img class="img-circle img-chakra center" src="Resources/Chakras/Símbolo_Jinton.png" alt="">
-                <img class="img-circle img-chakra deg0" src="Resources/Chakras/S+¡mbolo_Hyoton.png" alt="">
-                <img class="img-circle img-chakra deg36" src="Resources/Chakras/S+¡mbolo_Shakuton.png" alt="">    
-                <img class="img-circle img-chakra deg72" src="Resources/Chakras/S+¡mbolo_Kagutsuchi.png" alt="">
-                <img class="img-circle img-chakra deg108" src="Resources/Chakras/Símbolo_Jiton.svg" alt="">
-                <img class="img-circle img-chakra deg144" src="Resources/Chakras/Shoton.png" alt="">
-                <img class="img-circle img-chakra deg180" src="Resources/Chakras/Símbolo_Bakuton.png" alt="">
-                <img class="img-circle img-chakra deg216" src="Resources/Chakras/S+¡mbolo_Ranton.png" alt="">
-                <img class="img-circle img-chakra deg252" src="Resources/Chakras/Símbolo_Mokuton.png" alt="">
-                <img class="img-circle img-chakra deg288" src="Resources/Chakras/Símbolo_Yoton.svg" alt="">
-                <img class="img-circle img-chakra deg324" src="Resources/Chakras/Símbolo_Futton.svg" alt="">
-                <img class="img-circle img-chakra den0" src="Resources/Chakras/Símbolo_Futon.svg" alt="">
-                <img class="img-circle img-chakra den72" src="Resources/Chakras/S+¡mbolo_Raiton.png" alt="">
-                <img class="img-circle img-chakra den144" src="Resources/Chakras/S+¡mbolo_Doton.svg" alt="">
-                <img class="img-circle img-chakra den216" src="Resources/Chakras/S+¡mbolo_Suiton.svg" alt="">
-                <img class="img-circle img-chakra den288" src="Resources/Chakras/S+¡mbolo_Katon.svg" alt="">
-                <img class="img-circle img-chakra yang" src="Resources/Chakras/S+¡mbolo_Yang.svg" alt="">
-                <img class="img-circle img-chakra yin" src="Resources/Chakras/S+¡mbolo_Yin.png" alt="">
-                <img class="img-circle img-chakra yin-yang" src="Resources/Chakras/S+¡mbolo_Yin_Yang.png" alt="">                        
+    <div class="container-area"> 
+        <div class="container" id="container_id"> 
+                <div id="descricao_id" class="descricaoChakra">
+                        <div id="voltar_id" class="btn-voltar" onclick=""> 
+                            <img src="Resources/arrow_left.png" alt="">
+                        </div>
+                        <div id="hero-image" class="hero-image">
+                            <div id="hero-title" class="hero-text">
+                                <h1 id="hero-text">Jinton</h1>
+                            </div>
+                        </div>
+                        <section>
+                            <p>teste</p>
+                        </section>
+                    </div>
+
+            <div class="wrapper-chakra" id="chakra">
+                <img class="img-circle img-chakra center" src="Resources/Chakras/Símbolo_Jinton.png" onclick="jintonClick()" alt="">
+                <img class="img-circle img-chakra deg0" src="Resources/Chakras/S+¡mbolo_Hyoton.png" onclick="hyotonClick()" alt="">
+                <img class="img-circle img-chakra deg36" src="Resources/Chakras/S+¡mbolo_Shakuton.png" onclick="shakutonClick()" alt="">    
+                <img class="img-circle img-chakra deg72" src="Resources/Chakras/S+¡mbolo_Kagutsuchi.png" onclick="kagutsuchiClick()" alt="">
+                <img class="img-circle img-chakra deg108" src="Resources/Chakras/Símbolo_Jiton.svg" onclick="jitonClick()" alt="">
+                <img class="img-circle img-chakra deg144" src="Resources/Chakras/Shoton.png" onclick="shotonClick()" alt="">
+                <img class="img-circle img-chakra deg180" src="Resources/Chakras/Símbolo_Bakuton.png" onclick="bakutonClick()" alt="">
+                <img class="img-circle img-chakra deg216" src="Resources/Chakras/S+¡mbolo_Ranton.png" onclick="rantonClick()" alt="">
+                <img class="img-circle img-chakra deg252" src="Resources/Chakras/Símbolo_Mokuton.png" onclick="mokutonClick()" alt="">
+                <img class="img-circle img-chakra deg288" src="Resources/Chakras/Símbolo_Yoton.svg" onclick="yotonClick()" alt="">
+                <img class="img-circle img-chakra deg324" src="Resources/Chakras/Símbolo_Futton.svg"  onclick="futtonClick()" alt="">
+                <img class="img-circle img-chakra den0" src="Resources/Chakras/Símbolo_Futon.svg" onclick="futonClick()" alt="">
+                <img class="img-circle img-chakra den72" src="Resources/Chakras/S+¡mbolo_Raiton.png" onclick="raitonClick()" alt="">
+                <img class="img-circle img-chakra den144" src="Resources/Chakras/S+¡mbolo_Doton.svg" onclick="dotonClick()" alt="">
+                <img class="img-circle img-chakra den216" src="Resources/Chakras/S+¡mbolo_Suiton.svg" onclick="suitonClick()" alt="">
+                <img class="img-circle img-chakra den288" src="Resources/Chakras/S+¡mbolo_Katon.svg" onclick="katonClick()" alt="">
+                <img class="img-circle img-chakra yang" src="Resources/Chakras/S+¡mbolo_Yang.svg"  onclick="yangClick()" alt="">
+                <img class="img-circle img-chakra yin" src="Resources/Chakras/S+¡mbolo_Yin.png" onclick="intonClick()" alt="">
+                <img class="img-circle img-chakra yin-yang" src="Resources/Chakras/S+¡mbolo_Yin_Yang.png" onclick="yinyangClick()" alt="">                        
                 <svg>
                     <line class="hover" x1="56%" y1="32%" x2="20%" y2="28%" style="stroke:rgb(72, 145, 241)" ></line>
                     <line x1="38.5%" y1="14%" x2="56%" y2="32%" style="stroke:rgb(72, 145, 241)" ></line>
@@ -142,6 +156,7 @@
         </footer>
     </div>
 
+    <script src="JS/chakra.js"></script>
     <script src="JS/responsive.js"></script>
     <script src="JS/votacao.js"></script>
     <script src="JS/modalBox.js"></script>
