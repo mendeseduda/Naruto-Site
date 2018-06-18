@@ -75,8 +75,6 @@ function kuramaClick(){
 function shinjuClick(){
     trocarTela();
     heroImage.style.backgroundImage = "url('Resources/Bijuus/Shinju.png')";
-    heroImage.style.backgroundPositionY = "-215px";
-    heroImage.style.backgroundPositionX = "-115px";
     heroText.innerHTML = "Shinju";
 }
 
