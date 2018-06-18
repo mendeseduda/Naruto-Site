@@ -27,4 +27,10 @@ function trocarTela(texto){
         textoPrincipal.style.transform = "translate(-50%, -50%)";
         h1.innerHTML = "Akatsuki";
     }
+    topPage();
+}
+
+function topPage(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }

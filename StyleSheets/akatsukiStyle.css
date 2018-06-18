@@ -3,6 +3,10 @@
     src: url(../Resources/Fontes/PT_Sans-Web-Bold.ttf);
 }
 
+body{
+    background: #020202f0 !important;
+}
+
 .container{
     margin: auto !important;
     width: 100% !important;
