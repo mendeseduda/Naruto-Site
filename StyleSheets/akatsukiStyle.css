@@ -1,7 +1,12 @@
+@font-face{
+    font-family: pt-sans-bold;
+    src: url(../Resources/Fontes/PT_Sans-Web-Bold.ttf);
+}
+
 .container{
     margin: 0 !important;
-    width: auto !important;
-    height: auto !important;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .akatsuki-group{
@@ -10,19 +15,56 @@
     justify-content: center;
 }
 
-.container .texto-central{
-    text-align: center;
-    position: relative;
-    top: -150px;
+.akatsuki-group > img{
+    max-height: 270px;
+    width: auto;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
-.akatsuki-group > img{
-    width: auto;
-    height: 270px;
+.texto-central{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    font-family: pt-sans-bold; 
+    text-align: center;
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+
+.texto-central h1{
+    margin: 0;
+    line-height: 100px;
+}
+
+#hidan_id{
+    position: relative;
+    left: -25px;
+}
+
+#sasori_id{
+    position: relative;
+    left: -80px;
 }
 
 .akatsuki-group > img:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
     filter: drop-shadow(0 0 10px white);
-    padding: 0 50px;
+    padding: 0 10px;
+    margin: 0 20px;
 }
+
+section{
+    display: none !important;
+    margin: 0 auto !important;
+    width: 1000px !important;
+} 

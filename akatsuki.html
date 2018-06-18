@@ -54,19 +54,24 @@
     <div class="container-area">
         <div class="container"> 
             <div>
-                <div class="texto-central"><h1>Akatsuki</h1></div>
-            <div class="akatsuki-group">
-                <img src="Resources/Akatsuki/Pain.png" alt="">
-                <img src="Resources/Akatsuki/Deidara.png" alt="">
-                <img src="Resources/Akatsuki/Konan.png" alt="">
-                <img src="Resources/Akatsuki/Itachi.png" alt="">
-                <img src="Resources/Akatsuki/Zetsu.png" alt="">
-                <img src="Resources/Akatsuki/Orochimaru.png" alt="">
-                <img src="Resources/Akatsuki/Kisame.png" alt="">
-                <img src="Resources/Akatsuki/Kakuzu.png" alt="">
-                <img src="Resources/Akatsuki/Hidan.png" alt="">
-                <img src="Resources/Akatsuki/Sasori.png" alt="">
+                <div id="textoCentral_id" class="texto-central"><h1 id="texto_id">Akatsuki</h1></div>
+            <div class="akatsuki-group" id="akatsuki-group_id">
+                <img src="Resources/Akatsuki/Tobi.png" onclick="akatsukiClick('Tobi')" alt="">
+                <img src="Resources/Akatsuki/Pain.png" onclick="akatsukiClick('Pain')" alt="">
+                <img src="Resources/Akatsuki/Deidara.png" onclick="akatsukiClick('Deidara')" alt="">
+                <img src="Resources/Akatsuki/Konan.png" onclick="akatsukiClick('Konan')" alt="">
+                <img src="Resources/Akatsuki/Itachi.png" onclick="akatsukiClick('Itachi')" alt="">
+                <img src="Resources/Akatsuki/Orochimaru.png" onclick="akatsukiClick('Orochimaru')" alt="">
+                <img src="Resources/Akatsuki/Kisame.png" onclick="akatsukiClick('Kisame')" alt="">
+                <img src="Resources/Akatsuki/Kakuzu.png" onclick="akatsukiClick('Kakuzu')" alt="">
+                <img src="Resources/Akatsuki/Hidan.png" id="hidan_id" onclick="akatsukiClick('Hidan')" alt="">
+                <img src="Resources/Akatsuki/Sasori.png" id="sasori_id" onclick="akatsukiClick('Sasori')" alt="">
             </div>
+            <section id="sectionPricipal_id">
+                <div id="voltar_id" class="btn-voltar">
+                    <img src="Resources/arrow_left.png" alt="">
+                </div>
+            </section>
             </div>
         </div>
         <div id="Eduardo-modal" class="modal-box">
@@ -87,6 +92,12 @@
                 <h1>Eu sou a aldeia!</h1>
             </div>
         </div>
+        <div id="Corno-modal" class="modal-box">
+               <div class="modal-content">
+                    <span onclick="closeModal()" class="close">&times;</span>
+               <h1>Eu sou o corno!</h1>
+            </div>
+        </div>     
     </div>
     <footer>
             <dl id="rodape">
@@ -105,6 +116,7 @@
 
     <script src="JS/responsive.js"></script>
     <script src="JS/votacao.js"></script>
+    <script src="JS/akatsukiPage.js"></script>
     <script src="JS/modalBox.js"></script>
 </body>
 </html>
