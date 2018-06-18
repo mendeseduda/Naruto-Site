@@ -4,9 +4,14 @@
 }
 
 .container{
-    margin: 0 !important;
+    margin: auto !important;
     width: 100% !important;
     height: 100% !important;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
 }
 
 .akatsuki-group{

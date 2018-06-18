@@ -15,7 +15,6 @@ function shukakuClick(){
     trocarTela();
     heroImage.style.backgroundImage = "url('Resources/Bijuus/Shukaku_Fundo.png')";
     heroText.innerHTML = "Shukaku";
-    heroImage.style.backgroundPosition = "-200px";
 }
 
 function matatabiClick(){
@@ -28,42 +27,33 @@ function matatabiClick(){
 function isobuClick(){
     trocarTela();
     heroImage.style.backgroundImage = "url('Resources/Bijuus/Isobu_Fundo.png')";
-    heroImage.style.backgroundPositionY = "-70px";
     heroText.innerHTML = "Isobu";
 }
 
 function sonClick(){
     trocarTela();
     heroImage.style.backgroundImage = "url('Resources/Bijuus/Son_Fundo.png')";
-    heroImage.style.backgroundPosition = "0";
-    heroImage.style.backgroundSize = "contain";
+    heroImage.style.backgroundPosition = "0 0";
     heroText.innerHTML = "Son";
 }
 
 function kokuoClick(){
     trocarTela();
     heroImage.style.backgroundImage = "url('Resources/Bijuus/Kokuo_Fundo.png')";
-    heroImage.style.backgroundPositionY = "-220px";
-    heroImage.style.backgroundPositionX = "120px";
-    heroImage.style.backgroundSize = "contain";
     heroText.innerHTML = "Kokuo";
 }
 
 function saikenClick(){
     trocarTela();
     heroImage.style.backgroundImage = "url('Resources/Bijuus/Saiken_Fundo.png')";
-    heroImage.style.backgroundPositionY = "80px";
-    heroImage.style.backgroundPositionX = "160px";
-    heroImage.style.backgroundSize = "contain";
+    heroImage.style.backgroundPosition = "0 0";
     heroText.innerHTML = "Saiken";
 }
 
 function chomeiClick(){
     trocarTela();
     heroImage.style.backgroundImage = "url('Resources/Bijuus/Chomei_Fundo.png')";
-    heroImage.style.backgroundPositionY = "-75px";
-    heroImage.style.backgroundPositionX = "90px";
-    heroImage.style.backgroundSize = "contain";
+    heroImage.style.backgroundPosition = "0 0";
     heroText.innerHTML = "Chomei";
 }
 
@@ -72,7 +62,6 @@ function gyukiClick(){
     heroImage.style.backgroundImage = "url('Resources/Bijuus/Gyuki_Fundo.png')";
     heroImage.style.backgroundPositionY = "10px";
     heroImage.style.backgroundPositionX = "-136px";
-    heroImage.style.backgroundSize = "contain";
     heroText.innerHTML = "Gyuki";
 }
 
@@ -80,7 +69,6 @@ function kuramaClick(){
     trocarTela();
     heroImage.style.backgroundImage = "url('Resources/Bijuus/Kurama_Fundo.png')";
     heroImage.style.backgroundPositionY = "-35px";
-    heroImage.style.backgroundSize = "contain";
     heroText.innerHTML = "Kurama";
 }
 
@@ -89,7 +77,6 @@ function shinjuClick(){
     heroImage.style.backgroundImage = "url('Resources/Bijuus/Shinju.png')";
     heroImage.style.backgroundPositionY = "-215px";
     heroImage.style.backgroundPositionX = "-115px";
-    heroImage.style.backgroundSize = "contain";
     heroText.innerHTML = "Shinju";
 }
 
@@ -103,4 +90,10 @@ function trocarTela(){
         wrapper.style.display = "block";
         container.setAttribute('style', 'margin: 60px auto !important');
     }
+    topPage();
+}
+
+function topPage(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
