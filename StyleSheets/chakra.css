@@ -35,19 +35,19 @@
 
 .yin{
     position: absolute;
-    left: 15%;
+    left: -10%;
     top:30%;
 }
 
 .yang{
     position: absolute;
-    left: 15%;
+    left: -10%;
     top:70%;
 }
 
 .yin-yang{
     position: absolute;
-    left: 15%;
+    left: -10%;
     top:50%;
 }
 
