@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="StyleSheets/Pagina_Template.css">
-    <link rel="stylesheet" href="StyleSheets/master.css">        
-    <link rel="stylesheet" href="StyleSheets/akatsukiStyle.css">               
+    <link rel="stylesheet" href="StyleSheets/master.css">
+    <link rel="stylesheet" href="StyleSheets/akatsukiStyle.css">
     <link rel="shortcut icon" href="Resources/leaf-village.ico">
     <title>Akatsuki</title>
 </head>
+
 <body>
-    <embed src="Resources/Audio/Akatsuki_Theme.mp3" width="180" height="90" loop="false" autostart="false" hidden="true" />
+    <audio id="audioTheme" autoplay="true" loop="true" src="Resources/Audio/Akatsuki_Theme.mp3"></audio>
     <div id="Sidenav_id" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Lore</a>
@@ -23,55 +25,91 @@
     <header>
         <nav id="Topnav_id" class="nav">
             <div class="responsive-menu">
-                <a class="icon" href="javascript:void(0);" onclick="openNav()"><img id="menu-icon" src="Resources/menu.png" alt=""></a>
+                <a class="icon" href="javascript:void(0);" onclick="openNav()">
+                    <img id="menu-icon" src="Resources/menu.png" alt="">
+                </a>
             </div>
             <ul class="navigator">
-                <li><a href="index.html">Lore</a></li>
-                <li><a href="chakra.html">Chakra</a></li>
-                <li><a href="bijuus.html">Bijuus</a></li>
-                <li><a href="akatsuki.html">Akatsuki</a></li>
-                <li><a href="review.html">Review</a></li>
+                <li>
+                    <a href="index.html">Lore</a>
+                </li>
+                <li>
+                    <a href="chakra.html">Chakra</a>
+                </li>
+                <li>
+                    <a href="bijuus.html">Bijuus</a>
+                </li>
+                <li>
+                    <a href="akatsuki.html">Akatsuki</a>
+                </li>
+                <li>
+                    <a href="review.html">Review</a>
+                </li>
             </ul>
             <ul class="navigator-right" id="votacao_id">
-                <li class="characterName"><p>Naruto</p></li>
-                <li><img src="Resources/naruto.jpg" id="naruto_id" class="img-circle"></li>
-                <li><img src="Resources/Vs.png" id="Vs"></li>
-                <li><img src="Resources/sasuke.jpg" id="sasuke_id" class="img-circle" ></li>
-                <li class="characterName"><p>Sasuke</p></li>
+                <li class="characterName">
+                    <p>Naruto</p>
+                </li>
+                <li>
+                    <img src="Resources/naruto.jpg" id="naruto_id" class="img-circle">
+                </li>
+                <li>
+                    <img src="Resources/Vs.png" id="Vs">
+                </li>
+                <li>
+                    <img src="Resources/sasuke.jpg" id="sasuke_id" class="img-circle">
+                </li>
+                <li class="characterName">
+                    <p>Sasuke</p>
+                </li>
             </ul>
             <div id="votacao">
                 <img title="Naruto" class="img-circle" src="Resources/naruto.jpg">
                 <div class="container-voto">
-                    <div class="votosNaruto" id="voteBarraNaruto_id"><span></span></div>
-                    <div class="votosSasuke" id="voteBarraSasuke_id"><span></span></div>
+                    <div class="votosNaruto" id="voteBarraNaruto_id">
+                        <span></span>
+                    </div>
+                    <div class="votosSasuke" id="voteBarraSasuke_id">
+                        <span></span>
+                    </div>
                 </div>
                 <img title="Sasuke" class="img-circle" src="Resources/sasuke.jpg">
             </div>
-            
+
         </nav>
     </header>
-    
+
+    <div onclick="muteAudio()" class="btn btn-mute">
+        <img src="Resources/mute.svg" alt="">
+    </div>
+
+    <div id="btnScrollTop" onclick="topFunction()" class="btn scrollTop">
+        <img src="Resources/Arrow_up.svg" alt="">
+    </div>
+
     <div class="container-area">
-        <div class="container"> 
+        <div class="container">
             <div class="wrapper">
-                <div id="textoCentral_id" class="texto-central"><h1 id="texto_id">Akatsuki</h1></div>
-            <div class="akatsuki-group" id="akatsuki-group_id">
-                <img src="Resources/Akatsuki/Tobi.png" onclick="akatsukiClick('Tobi')" alt="">
-                <img src="Resources/Akatsuki/Pain.png" onclick="akatsukiClick('Pain')" alt="">
-                <img src="Resources/Akatsuki/Deidara.png" onclick="akatsukiClick('Deidara')" alt="">
-                <img src="Resources/Akatsuki/Konan.png" onclick="akatsukiClick('Konan')" alt="">
-                <img src="Resources/Akatsuki/Itachi.png" onclick="akatsukiClick('Itachi')" alt="">
-                <img src="Resources/Akatsuki/Orochimaru.png" onclick="akatsukiClick('Orochimaru')" alt="">
-                <img src="Resources/Akatsuki/Kisame.png" onclick="akatsukiClick('Kisame')" alt="">
-                <img src="Resources/Akatsuki/Kakuzu.png" onclick="akatsukiClick('Kakuzu')" alt="">
-                <img src="Resources/Akatsuki/Hidan.png" id="hidan_id" onclick="akatsukiClick('Hidan')" alt="">
-                <img src="Resources/Akatsuki/Sasori.png" id="sasori_id" onclick="akatsukiClick('Sasori')" alt="">
-            </div>
-            <section id="sectionPricipal_id">
-                <div id="voltar_id" class="btn-voltar">
-                    <img src="Resources/arrow_left.png" alt="">
+                <div id="textoCentral_id" class="texto-central">
+                    <h1 id="texto_id">Akatsuki</h1>
                 </div>
-            </section>
+                <div class="akatsuki-group" id="akatsuki-group_id">
+                    <img src="Resources/Akatsuki/Tobi.png" onclick="akatsukiClick('Tobi')" alt="">
+                    <img src="Resources/Akatsuki/Pain.png" onclick="akatsukiClick('Pain')" alt="">
+                    <img src="Resources/Akatsuki/Deidara.png" onclick="akatsukiClick('Deidara')" alt="">
+                    <img src="Resources/Akatsuki/Konan.png" onclick="akatsukiClick('Konan')" alt="">
+                    <img src="Resources/Akatsuki/Itachi.png" onclick="akatsukiClick('Itachi')" alt="">
+                    <img src="Resources/Akatsuki/Orochimaru.png" onclick="akatsukiClick('Orochimaru')" alt="">
+                    <img src="Resources/Akatsuki/Kisame.png" onclick="akatsukiClick('Kisame')" alt="">
+                    <img src="Resources/Akatsuki/Kakuzu.png" onclick="akatsukiClick('Kakuzu')" alt="">
+                    <img src="Resources/Akatsuki/Hidan.png" id="hidan_id" onclick="akatsukiClick('Hidan')" alt="">
+                    <img src="Resources/Akatsuki/Sasori.png" id="sasori_id" onclick="akatsukiClick('Sasori')" alt="">
+                </div>
+                <section id="sectionPricipal_id">
+                    <div id="voltar_id" class="btn-voltar">
+                        <img src="Resources/arrow_left.png" alt="">
+                    </div>
+                </section>
             </div>
         </div>
         <div id="Eduardo-modal" class="modal-box">
@@ -93,30 +131,32 @@
             </div>
         </div>
         <div id="Corno-modal" class="modal-box">
-               <div class="modal-content">
-                    <span onclick="closeModal()" class="close">&times;</span>
-               <h1>Eu sou o corno!</h1>
+            <div class="modal-content">
+                <span onclick="closeModal()" class="close">&times;</span>
+                <h1>Eu sou o corno!</h1>
             </div>
-        </div>     
+        </div>
     </div>
     <footer>
-            <dl id="rodape">
-                <dt>Um trabalho elaborado por: 
-                    <dd id="Eduardo_id" class="btn">Dudu Timão</dd>
-                    <dd id="Maia_id" class="btn">Maia Pianinho</dd>
-                </dt>
-            </dl>
-            <dl>
-                <dt>Contribuidores:
-                    <dd id="Aldeia_id" class="btn">Aldeia da Juliana</dd>
-                    <dd id="Corno_id" class="btn">Corno</dd>
-                </dt>
-            </dl>
-        </footer>
+        <dl id="rodape">
+            <dt>Um trabalho elaborado por:
+                <dd id="Eduardo_id" class="btn">Dudu Timão</dd>
+                <dd id="Maia_id" class="btn">Maia Pianinho</dd>
+            </dt>
+        </dl>
+        <dl>
+            <dt>Contribuidores:
+                <dd id="Aldeia_id" class="btn">Aldeia da Juliana</dd>
+                <dd id="Corno_id" class="btn">Corno</dd>
+            </dt>
+        </dl>
+    </footer>
 
+    <script src="JS/master.js"></script>
     <script src="JS/responsive.js"></script>
     <script src="JS/votacao.js"></script>
     <script src="JS/akatsukiPage.js"></script>
     <script src="JS/modalBox.js"></script>
 </body>
+
 </html>

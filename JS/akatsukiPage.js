@@ -3,6 +3,7 @@ var section = document.getElementById("sectionPricipal_id");
 var textoPrincipal = document.getElementById("textoCentral_id");
 var voltarBtn = document.getElementById("voltar_id");
 var h1 = document.getElementById("texto_id")
+var audio = document.getElementById("audioTheme");
 
 voltarBtn.onclick = function(){
     trocarTela();
@@ -27,4 +28,8 @@ function trocarTela(texto){
         textoPrincipal.style.transform = "translate(-50%, -50%)";
         h1.innerHTML = "Akatsuki";
     }
+}
+
+function muteAudio(){
+    audio.muted = !audio.muted;
 }

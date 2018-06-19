@@ -11,7 +11,7 @@
     height: auto;
     margin: 60px auto !important;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start !important;
 }
 
 .wrapper-bijuus{
