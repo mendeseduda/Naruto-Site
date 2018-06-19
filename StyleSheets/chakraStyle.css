@@ -2,6 +2,28 @@
     --raio: 18em; /* 12em = half the width of the wrapper */
     --reio: 9em;
 }
+.container > h1{
+    color: #111; 
+    font-family: 'Open Sans Condensed', sans-serif; 
+    font-size: 64px; 
+    font-weight: 700; 
+    line-height: 64px; 
+    margin: 0 0 0; 
+    padding: 20px 30px; 
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+p{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+    line-height: 1.4;
+    text-indent: 1.5em;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 .container{
     height: auto;
     margin: 60px auto !important;
@@ -15,7 +37,6 @@
     padding: 0;
     
 }
-
 
 .hero-image{
     height: 400px;
@@ -186,7 +207,98 @@ line:hover {
     stroke-opacity: 50%;
 }
 
-.img-chakra:hover ~ svg .hover{
+.suiton:hover ~ svg .suitonl{
+    stroke-width: 9px;
+    stroke-opacity: 50%;
+
+}
+
+.katon:hover ~ svg .katonl{
+    stroke-width: 9px;
+    stroke-opacity: 50%;
+
+}
+
+
+.futon:hover ~ svg .futonl{
+    stroke-width: 9px;
+    stroke-opacity: 50%;
+
+}
+
+
+.doton:hover ~ svg .dotonl{
+    stroke-width: 9px;
+    stroke-opacity: 50%;
+
+}
+
+
+.raiton:hover ~ svg .raitonl{
+    stroke-width: 9px;
+    stroke-opacity: 50%;
+
+}
+
+.jinton:hover ~ svg .jintonl{
+    stroke-width: 9px;
+    stroke-opacity: 50%;
+
+}
+
+.mokuton:hover ~ svg .mokutonl{
+    stroke-width: 9px;
+    stroke-opacity: 50%;
+
+}
+.ranton:hover ~ svg .rantonl{
+    stroke-width: 9px;
+    stroke-opacity: 50%;
+
+}
+.bakuton:hover ~ svg .bakutonl{
+    stroke-width: 9px;
+    stroke-opacity: 50%;
+
+}
+
+.shoton:hover ~ svg .shotonl{
+    stroke-width: 9px;
+    stroke-opacity: 50%;
+
+}
+
+.jiton:hover ~ svg .jitonl{
+    stroke-width: 9px;
+    stroke-opacity: 50%;
+
+}
+
+.kagutsuchi:hover ~ svg .kagutsuchil{
+    stroke-width: 9px;
+    stroke-opacity: 50%;
+
+}
+
+.shakuton:hover ~ svg .shakutonl{
+    stroke-width: 9px;
+    stroke-opacity: 50%;
+
+}
+
+.hyoton:hover ~ svg .hyotonl{
+    stroke-width: 9px;
+    stroke-opacity: 50%;
+
+}
+
+.futton:hover ~ svg .futtonl{
+    stroke-width: 9px;
+    stroke-opacity: 50%;
+
+}
+
+.yoton:hover ~ svg .yotonl{
     stroke-width: 9px;
     stroke-opacity: 50%;
 
