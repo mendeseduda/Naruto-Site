@@ -28,6 +28,11 @@
     outline: none;
     padding: 15px !important;
     object-fit: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .modal-content{
@@ -67,5 +72,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 

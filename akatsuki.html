@@ -25,7 +25,7 @@
     <header>
         <nav id="Topnav_id" class="nav">
             <div class="responsive-menu">
-                <a class="icon" href="javascript:void(0);" onclick="openNav()">
+                <a class="icon" href="javascript:void(0);" onmouseover="openNav()">
                     <img id="menu-icon" src="Resources/menu.png" alt="">
                 </a>
             </div>
@@ -90,26 +90,21 @@
     <div class="container-area">
         <div class="container">
             <div class="wrapper">
-                <div id="textoCentral_id" class="texto-central">
+                <div class="texto-central">
                     <h1 id="texto_id">Akatsuki</h1>
                 </div>
                 <div class="akatsuki-group" id="akatsuki-group_id">
-                    <img src="Resources/Akatsuki/Tobi.png" onclick="akatsukiClick('Tobi')" alt="">
-                    <img src="Resources/Akatsuki/Pain.png" onclick="akatsukiClick('Pain')" alt="">
-                    <img src="Resources/Akatsuki/Deidara.png" onclick="akatsukiClick('Deidara')" alt="">
-                    <img src="Resources/Akatsuki/Konan.png" onclick="akatsukiClick('Konan')" alt="">
-                    <img src="Resources/Akatsuki/Itachi.png" onclick="akatsukiClick('Itachi')" alt="">
-                    <img src="Resources/Akatsuki/Orochimaru.png" onclick="akatsukiClick('Orochimaru')" alt="">
-                    <img src="Resources/Akatsuki/Kisame.png" onclick="akatsukiClick('Kisame')" alt="">
-                    <img src="Resources/Akatsuki/Kakuzu.png" onclick="akatsukiClick('Kakuzu')" alt="">
-                    <img src="Resources/Akatsuki/Hidan.png" id="hidan_id" onclick="akatsukiClick('Hidan')" alt="">
-                    <img src="Resources/Akatsuki/Sasori.png" id="sasori_id" onclick="akatsukiClick('Sasori')" alt="">
+                    <img src="Resources/Akatsuki/Tobi.png" onmouseout="akatsukiout()" onmouseover="akatsukiOver('Tobi')" alt="">
+                    <img src="Resources/Akatsuki/Pain.png" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Pain')" alt="">
+                    <img src="Resources/Akatsuki/Deidara.png" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Deidara')" alt="">
+                    <img src="Resources/Akatsuki/Konan.png" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Konan')" alt="">
+                    <img src="Resources/Akatsuki/Itachi.png" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Itachi')" alt="">
+                    <img src="Resources/Akatsuki/Orochimaru.png" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Orochimaru')" alt="">
+                    <img src="Resources/Akatsuki/Kisame.png" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Kisame')" alt="">
+                    <img src="Resources/Akatsuki/Kakuzu.png" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Kakuzu')" alt="">
+                    <img src="Resources/Akatsuki/Hidan.png" id="hidan_id" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Hidan')" alt="">
+                    <img src="Resources/Akatsuki/Sasori.png" id="sasori_id" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Sasori')" alt="">
                 </div>
-                <section id="sectionPricipal_id">
-                    <div id="voltar_id" class="btn-voltar">
-                        <img src="Resources/arrow_left.png" alt="">
-                    </div>
-                </section>
             </div>
         </div>
         <div id="Eduardo-modal" class="modal-box">

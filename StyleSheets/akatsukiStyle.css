@@ -26,6 +26,11 @@ audio{
     display: flex;
     justify-content: center;
     align-items: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .container{
@@ -43,6 +48,7 @@ audio{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-left: 50px;
 }
 
 .akatsuki-group > img{
