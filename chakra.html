@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="StyleSheets/Pagina_Template.css">
-    <link rel="stylesheet" href="StyleSheets/master.css">                       
+    <link rel="stylesheet" href="StyleSheets/master.css">
     <link rel="shortcut icon" href="Resources/leaf-village.ico">
     <link rel="stylesheet" href="StyleSheets/chakraStyle.css">
     <title>Chakra</title>
 </head>
+
 <body>
-        <script src="JS/responsive.js"></script>
+    <script src="JS/responsive.js"></script>
     <div id="Sidenav_id" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Lore</a>
@@ -23,78 +25,106 @@
     <header>
         <nav id="Topnav_id" class="nav">
             <div class="responsive-menu">
-                <a class="icon" href="javascript:void(0);" onclick="openNav()"><img id="menu-icon" src="Resources/menu.png" alt=""></a>
+                <a class="icon" href="javascript:void(0);" onclick="openNav()">
+                    <img id="menu-icon" src="Resources/menu.png" alt="">
+                </a>
             </div>
             <ul class="navigator">
-                <li><a href="index.html">Lore</a></li>
-                <li><a href="chakra.html">Chakra</a></li>
-                <li><a href="bijuus.html">Bijuus</a></li>
-                <li><a href="akatsuki.html">Akatsuki</a></li>
-                <li><a href="review.html">Review</a></li>
+                <li>
+                    <a href="index.html">Lore</a>
+                </li>
+                <li>
+                    <a href="chakra.html">Chakra</a>
+                </li>
+                <li>
+                    <a href="bijuus.html">Bijuus</a>
+                </li>
+                <li>
+                    <a href="akatsuki.html">Akatsuki</a>
+                </li>
+                <li>
+                    <a href="review.html">Review</a>
+                </li>
             </ul>
             <ul class="navigator-right" id="votacao_id">
-                <li class="characterName"><p>Naruto</p></li>
-                <li><img src="Resources/naruto.jpg" id="naruto_id" class="img-circle"></li>
-                <li><img src="Resources/Vs.png" id="Vs"></li>
-                <li><img src="Resources/sasuke.jpg" id="sasuke_id" class="img-circle" ></li>
-                <li class="characterName"><p>Sasuke</p></li>
+                <li class="characterName">
+                    <p>Naruto</p>
+                </li>
+                <li>
+                    <img src="Resources/naruto.jpg" id="naruto_id" class="img-circle">
+                </li>
+                <li>
+                    <img src="Resources/Vs.png" id="Vs">
+                </li>
+                <li>
+                    <img src="Resources/sasuke.jpg" id="sasuke_id" class="img-circle">
+                </li>
+                <li class="characterName">
+                    <p>Sasuke</p>
+                </li>
             </ul>
             <div id="votacao">
                 <img title="Naruto" class="img-circle" src="Resources/naruto.jpg">
                 <div class="container-voto">
-                    <div class="votosNaruto" id="voteBarraNaruto_id"><span></span></div>
-                    <div class="votosSasuke" id="voteBarraSasuke_id"><span></span></div>
+                    <div class="votosNaruto" id="voteBarraNaruto_id">
+                        <span></span>
+                    </div>
+                    <div class="votosSasuke" id="voteBarraSasuke_id">
+                        <span></span>
+                    </div>
                 </div>
                 <img title="Sasuke" class="img-circle" src="Resources/sasuke.jpg">
             </div>
-            
+
         </nav>
     </header>
-    <div class="container-area"> 
-        <div class="container" id="container_id"> 
-                <div id="descricao_id" class="descricaoChakra">
-                        <div id="voltar_id" class="btn-voltar" onclick=""> 
-                            <img src="Resources/arrow_left.png" alt="">
-                        </div>
-                        <div id="hero-image" class="hero-image">
-                            <div id="hero-title" class="hero-text">
-                                <h1 id="hero-text">Jinton</h1>
-                            </div>
-                        </div>
-                        <section>
-                            <p id="texto_id">teste</p>
-                        </section>
+    <div class="container-area">
+        <div class="container" id="container_id">
+            <div id="descricao_id" class="descricaoChakra">
+                <div id="voltar_id" class="btn-voltar" onclick="">
+                    <img src="Resources/arrow_left.png" alt="">
+                </div>
+                <div id="hero-image" class="hero-image">
+                    <div id="hero-title" class="hero-text">
+                        <h1 id="hero-text">Jinton</h1>
                     </div>
+                </div>
+                <section>
+                    <p id="texto_id">teste</p>
+                </section>
+            </div>
 
             <div class="wrapper-chakra" id="chakra">
                 <img class="img-circle img-chakra center jinton" src="Resources/Chakras/Símbolo_Jinton.png" onclick="jintonClick()" alt="">
                 <img class="img-circle img-chakra deg0 hyoton" src="Resources/Chakras/S+¡mbolo_Hyoton.png" onclick="hyotonClick()" alt="">
-                <img class="img-circle img-chakra deg36 shakuton" src="Resources/Chakras/S+¡mbolo_Shakuton.png" onclick="shakutonClick()" alt="">    
-                <img class="img-circle img-chakra deg72 kagutsuchi" src="Resources/Chakras/S+¡mbolo_Kagutsuchi.png" onclick="kagutsuchiClick()" alt="">
+                <img class="img-circle img-chakra deg36 shakuton" src="Resources/Chakras/S+¡mbolo_Shakuton.png" onclick="shakutonClick()"
+                    alt="">
+                <img class="img-circle img-chakra deg72 kagutsuchi" src="Resources/Chakras/S+¡mbolo_Kagutsuchi.png" onclick="kagutsuchiClick()"
+                    alt="">
                 <img class="img-circle img-chakra deg108 jiton" src="Resources/Chakras/Símbolo_Jiton.svg" onclick="jitonClick()" alt="">
                 <img class="img-circle img-chakra deg144 shoton" src="Resources/Chakras/Shoton.png" onclick="shotonClick()" alt="">
                 <img class="img-circle img-chakra deg180 bakuton" src="Resources/Chakras/Símbolo_Bakuton.png" onclick="bakutonClick()" alt="">
                 <img class="img-circle img-chakra deg216 ranton" src="Resources/Chakras/S+¡mbolo_Ranton.png" onclick="rantonClick()" alt="">
                 <img class="img-circle img-chakra deg252 mokuton" src="Resources/Chakras/Símbolo_Mokuton.png" onclick="mokutonClick()" alt="">
                 <img class="img-circle img-chakra deg288 yoton" src="Resources/Chakras/Símbolo_Yoton.svg" onclick="yotonClick()" alt="">
-                <img class="img-circle img-chakra deg324 futton" src="Resources/Chakras/Símbolo_Futton.svg"  onclick="futtonClick()" alt="">
+                <img class="img-circle img-chakra deg324 futton" src="Resources/Chakras/Símbolo_Futton.svg" onclick="futtonClick()" alt="">
                 <img class="img-circle img-chakra den0 futon" src="Resources/Chakras/Símbolo_Futon.svg" onclick="futonClick()" alt="">
                 <img class="img-circle img-chakra den72 raiton" src="Resources/Chakras/S+¡mbolo_Raiton.png" onclick="raitonClick()" alt="">
                 <img class="img-circle img-chakra den144 doton" src="Resources/Chakras/S+¡mbolo_Doton.svg" onclick="dotonClick()" alt="">
                 <img class="img-circle img-chakra den216 suiton" src="Resources/Chakras/S+¡mbolo_Suiton.svg" onclick="suitonClick()" alt="">
                 <img class="img-circle img-chakra den288 katon" src="Resources/Chakras/S+¡mbolo_Katon.svg" onclick="katonClick()" alt="">
-                <img class="img-circle img-chakra yang" src="Resources/Chakras/S+¡mbolo_Yang.svg"  onclick="yangClick()" alt="">
+                <img class="img-circle img-chakra yang" src="Resources/Chakras/S+¡mbolo_Yang.svg" onclick="yangClick()" alt="">
                 <img class="img-circle img-chakra yin" src="Resources/Chakras/S+¡mbolo_Yin.png" onclick="intonClick()" alt="">
-                <img class="img-circle img-chakra yin-yang" src="Resources/Chakras/S+¡mbolo_Yin_Yang.png" onclick="yinyangClick()" alt="">                        
+                <img class="img-circle img-chakra yin-yang" src="Resources/Chakras/S+¡mbolo_Yin_Yang.png" onclick="yinyangClick()" alt="">
                 <svg>
-                    <line class="suitonl rantonl" x1="56%" y1="32%" x2="20%" y2="28%" style="stroke:rgb(72, 145, 241)" ></line>
-                    <line class="suitonl mokutonl"  x1="38.5%" y1="14%" x2="56%" y2="32%" style="stroke:rgb(72, 145, 241)" ></line>
-                    <line class="suitonl futtonl" x1="56%" y1="32%" x2="80%" y2="27.5%" style="stroke:rgb(72, 145, 241)" ></line>
-                    <line  class="suitonl hyotonl" x1="56%" y1="32%" x2="87.5%" y2="50%" style="stroke:rgb(72, 145, 241)" ></line>
-                    <line  class="raitonl rantonl" x1="20%" y1="28%" x2="35%" y2="61%" style="stroke:rgb(233, 220, 35)"></line>
+                    <line class="suitonl rantonl" x1="56%" y1="32%" x2="20%" y2="28%" style="stroke:rgb(72, 145, 241)"></line>
+                    <line class="suitonl mokutonl" x1="38.5%" y1="14%" x2="56%" y2="32%" style="stroke:rgb(72, 145, 241)"></line>
+                    <line class="suitonl futtonl" x1="56%" y1="32%" x2="80%" y2="27.5%" style="stroke:rgb(72, 145, 241)"></line>
+                    <line class="suitonl hyotonl" x1="56%" y1="32%" x2="87.5%" y2="50%" style="stroke:rgb(72, 145, 241)"></line>
+                    <line class="raitonl rantonl" x1="20%" y1="28%" x2="35%" y2="61%" style="stroke:rgb(233, 220, 35)"></line>
                     <line class="raitonl bakutonl" x1="12.5%" y1="50%" x2="35%" y2="61%" style="stroke:rgb(233, 220, 35)"></line>
                     <line class="raitonl jitonl" x1="38.5%" y1="86%" x2="35%" y2="61%" style="stroke:rgb(233, 220, 35)"></line>
-                    <line class="raitonl kagutsuchil"x1="61.5%" y1="85%" x2="35%" y2="61%" style="stroke:rgb(233, 220, 35)"></line>
+                    <line class="raitonl kagutsuchil" x1="61.5%" y1="85%" x2="35%" y2="61%" style="stroke:rgb(233, 220, 35)"></line>
                     <line class="futonl shotonl" x1="56%" y1="68%" x2="20%" y2="72%" style="stroke: #29a781"></line>
                     <line class="futonl jitonl" x1="56%" y1="68%" x2="38.5%" y2="86%" style="stroke: #29a781"></line>
                     <line class="futonl shakutonl" x1="56%" y1="68%" x2="80%" y2="72%" style="stroke: #29a781"></line>
@@ -110,38 +140,76 @@
                     <line class="dotonl jintonl" x1="35%" y1="39%" x2="50%" y2="50%" style="stroke: rgb(140, 90, 22)"></line>
                     <line class="jintonl futonl" x1="56%" y1="68%" x2="50%" y2="50%" style="stroke: #29a781"></line>
                     <line class="jintonl katonl" x1="67.5%" y1="49.3%" x2="50%" y2="50%" style="stroke: rgb(216, 0, 0); z-index: '20';"></line>
-                    
-                </svg>    
-            </div> 
-            
+
+                </svg>
+            </div>
+
         </div>
         <div id="Eduardo-modal" class="modal-box">
             <div class="modal-content">
                 <span onclick="closeModal()" class="close">&times;</span>
-                <h1>Eu sou o Eduardo!</h1>
+                <div class="introducao">
+                    <img src="Resources/Eduardo.jpg" class="icons" alt="">
+                    <h1>Eduardo Mendes R. de Faria</h1>
+                </div>
+                <div class="bio">
+                    <ul>
+                        <li>Calmo</li>
+                        <li>Extremamente engraçado</li>
+                        <li>Em busca de um café</li>
+                        <li>Deus do front-end</li>
+                        <li>Humilde</li>
+                        <li>Torcedor do Brasil e do Neymar</li>
+                        <li>Criativo</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div id="Maia-modal" class="modal-box">
             <div class="modal-content">
                 <span onclick="closeModal()" class="close">&times;</span>
-                <h1>Eu sou o Maia!</h1>
+                <div class="introducao">
+                    <img src="Resources/Maia.jpg" class="icons" alt="">
+                    <h1>Vitor Gabriel B. Maia</h1>
+                </div>
+                <div class="bio">
+                    <ul>
+                        <li>Nômade</li>
+                        <li>De extremo centro</li>
+                        <li>Começo a trabalhar no mínimo com 3 semanas de antecedência</li>
+                        <li>Magic</li>
+                        <li>Delbi</li>
+                        <li>Kumon</li>
+                        <li>Quase merecedor do apoio da vila aliada</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div id="Aldeia-Juliana-modal" class="modal-box">
             <div class="modal-content">
                 <span onclick="closeModal()" class="close">&times;</span>
-                <h1>Eu sou a aldeia!</h1>
+                <div class="introducao">
+                    <img src="Resources/Matheus.jpg" class="icons" alt="">
+                    <h1>Matheus M. Silva</h1>
+                </div>
+                <div class="introducao">
+                    <h1>Juliana H. Aparecida</h1>
+                    <img src="Resources/Juju.jpg" class="icons" alt="">
+                </div>
             </div>
         </div>
         <div id="Corno-modal" class="modal-box">
             <div class="modal-content">
                 <span onclick="closeModal()" class="close">&times;</span>
-                <h1>Eu sou o corno!</h1>
-             </div>
-         </div>   
+                <div class="introducao">
+                    <img src="Resources/Corno.jpg" class="icons" alt="">
+                    <h1>Roberto B. Oliveira</h1>
+                </div>
+            </div>
+        </div>
         <footer>
             <dl id="rodape">
-                <dt>Um trabalho elaborado por: 
+                <dt>Um trabalho elaborado por:
                     <dd id="Eduardo_id" class="btn">Dudu Timão</dd>
                     <dd id="Maia_id" class="btn">Maia Pianinho</dd>
                 </dt>
@@ -150,6 +218,9 @@
                 <dt>Contribuidores:
                     <dd id="Aldeia_id" class="btn">Aldeia da Juliana</dd>
                     <dd id="Corno_id" class="btn">Corno</dd>
+                    <dd>
+                        <a href="http://pt-br.naruto.wikia.com/wiki/Wiki_Naruto">Naruto Wiki</a>
+                    </dd>
                 </dt>
             </dl>
         </footer>
@@ -160,4 +231,5 @@
     <script src="JS/votacao.js"></script>
     <script src="JS/modalBox.js"></script>
 </body>
+
 </html>

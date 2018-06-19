@@ -7,10 +7,6 @@ body{
     background: #020202f0 !important;
 }
 
-audio{
-    display: none;
-}
-
 .btn-mute{
     position: fixed;
     top: 90px;

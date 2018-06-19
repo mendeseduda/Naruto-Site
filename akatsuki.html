@@ -13,7 +13,6 @@
 </head>
 
 <body>
-    <audio id="audioTheme" autoplay="true" loop="true" src="Resources/Audio/Akatsuki_Theme.mp3"></audio>
     <div id="Sidenav_id" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Lore</a>
@@ -25,7 +24,7 @@
     <header>
         <nav id="Topnav_id" class="nav">
             <div class="responsive-menu">
-                <a class="icon" href="javascript:void(0);" onmouseover="openNav()">
+                <a class="icon" href="javascript:void(0);" onclick="openNav()">
                     <img id="menu-icon" src="Resources/menu.png" alt="">
                 </a>
             </div>
@@ -95,63 +94,106 @@
                 </div>
                 <div class="akatsuki-group" id="akatsuki-group_id">
                     <img src="Resources/Akatsuki/Tobi.png" onmouseout="akatsukiout()" onmouseover="akatsukiOver('Tobi')" alt="">
-                    <img src="Resources/Akatsuki/Pain.png" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Pain')" alt="">
-                    <img src="Resources/Akatsuki/Deidara.png" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Deidara')" alt="">
-                    <img src="Resources/Akatsuki/Konan.png" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Konan')" alt="">
-                    <img src="Resources/Akatsuki/Itachi.png" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Itachi')" alt="">
-                    <img src="Resources/Akatsuki/Orochimaru.png" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Orochimaru')" alt="">
-                    <img src="Resources/Akatsuki/Kisame.png" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Kisame')" alt="">
-                    <img src="Resources/Akatsuki/Kakuzu.png" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Kakuzu')" alt="">
-                    <img src="Resources/Akatsuki/Hidan.png" id="hidan_id" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Hidan')" alt="">
-                    <img src="Resources/Akatsuki/Sasori.png" id="sasori_id" onmouseout="akatsukiout()"  onmouseover="akatsukiOver('Sasori')" alt="">
+                    <img src="Resources/Akatsuki/Pain.png" onmouseout="akatsukiout()" onmouseover="akatsukiOver('Pain')" alt="">
+                    <img src="Resources/Akatsuki/Deidara.png" onmouseout="akatsukiout()" onmouseover="akatsukiOver('Deidara')" alt="">
+                    <img src="Resources/Akatsuki/Konan.png" onmouseout="akatsukiout()" onmouseover="akatsukiOver('Konan')" alt="">
+                    <img src="Resources/Akatsuki/Itachi.png" onmouseout="akatsukiout()" onmouseover="akatsukiOver('Itachi')" alt="">
+                    <img src="Resources/Akatsuki/Orochimaru.png" onmouseout="akatsukiout()" onmouseover="akatsukiOver('Orochimaru')" alt="">
+                    <img src="Resources/Akatsuki/Kisame.png" onmouseout="akatsukiout()" onmouseover="akatsukiOver('Kisame')" alt="">
+                    <img src="Resources/Akatsuki/Kakuzu.png" onmouseout="akatsukiout()" onmouseover="akatsukiOver('Kakuzu')" alt="">
+                    <img src="Resources/Akatsuki/Hidan.png" id="hidan_id" onmouseout="akatsukiout()" onmouseover="akatsukiOver('Hidan')" alt="">
+                    <img src="Resources/Akatsuki/Sasori.png" id="sasori_id" onmouseout="akatsukiout()" onmouseover="akatsukiOver('Sasori')" alt="">
                 </div>
             </div>
         </div>
         <div id="Eduardo-modal" class="modal-box">
             <div class="modal-content">
                 <span onclick="closeModal()" class="close">&times;</span>
-                <h1>Eu sou o Eduardo!</h1>
+                <div class="introducao">
+                    <img src="Resources/Eduardo.jpg" class="icons" alt="">
+                    <h1>Eduardo Mendes R. de Faria</h1>
+                </div>
+                <div class="bio">
+                    <ul>
+                        <li>Calmo</li>
+                        <li>Extremamente engraçado</li>
+                        <li>Em busca de um café</li>
+                        <li>Deus do front-end</li>
+                        <li>Humilde</li>
+                        <li>Torcedor do Brasil e do Neymar</li>
+                        <li>Criativo</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div id="Maia-modal" class="modal-box">
             <div class="modal-content">
                 <span onclick="closeModal()" class="close">&times;</span>
-                <h1>Eu sou o Maia!</h1>
+                <div class="introducao">
+                    <img src="Resources/Maia.jpg" class="icons" alt="">
+                    <h1>Vitor Gabriel B. Maia</h1>
+                </div>
+                <div class="bio">
+                    <ul>
+                        <li>Nômade</li>
+                        <li>De extremo centro</li>
+                        <li>Começo a trabalhar no mínimo com 3 semanas de antecedência</li>
+                        <li>Magic</li>
+                        <li>Delbi</li>
+                        <li>Kumon</li>
+                        <li>Quase merecedor do apoio da vila aliada</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div id="Aldeia-Juliana-modal" class="modal-box">
             <div class="modal-content">
                 <span onclick="closeModal()" class="close">&times;</span>
-                <h1>Eu sou a aldeia!</h1>
+                <div class="introducao">
+                    <img src="Resources/Matheus.jpg" class="icons" alt="">
+                    <h1>Matheus M. Silva</h1>
+                </div>
+                <div class="introducao">
+                    <h1>Juliana H. Aparecida</h1>
+                    <img src="Resources/Juju.jpg" class="icons" alt="">
+                </div>
             </div>
         </div>
         <div id="Corno-modal" class="modal-box">
             <div class="modal-content">
                 <span onclick="closeModal()" class="close">&times;</span>
-                <h1>Eu sou o corno!</h1>
+                <div class="introducao">
+                    <img src="Resources/Corno.jpg" class="icons" alt="">
+                    <h1>Roberto B. Oliveira</h1>
+                </div>
             </div>
         </div>
-    </div>
-    <footer>
-        <dl id="rodape">
-            <dt>Um trabalho elaborado por:
-                <dd id="Eduardo_id" class="btn">Dudu Timão</dd>
-                <dd id="Maia_id" class="btn">Maia Pianinho</dd>
-            </dt>
-        </dl>
-        <dl>
-            <dt>Contribuidores:
-                <dd id="Aldeia_id" class="btn">Aldeia da Juliana</dd>
-                <dd id="Corno_id" class="btn">Corno</dd>
-            </dt>
-        </dl>
-    </footer>
-
-    <script src="JS/master.js"></script>
-    <script src="JS/responsive.js"></script>
-    <script src="JS/votacao.js"></script>
-    <script src="JS/akatsukiPage.js"></script>
-    <script src="JS/modalBox.js"></script>
+        <footer>
+            <dl id="rodape">
+                <dt>Um trabalho elaborado por:
+                    <dd id="Eduardo_id" class="btn">Dudu Timão</dd>
+                    <dd id="Maia_id" class="btn">Maia Pianinho</dd>
+                </dt>
+            </dl>
+            <dl>
+                <dt>Contribuidores:
+                    <dd id="Aldeia_id" class="btn">Aldeia da Juliana</dd>
+                    <dd id="Corno_id" class="btn">Corno</dd>
+                    <dd>
+                        <a href="http://pt-br.naruto.wikia.com/wiki/Wiki_Naruto">Naruto Wiki</a>
+                    </dd>
+                </dt>
+            </dl>
+        </footer>
+        <audio id="audioTheme" preload="auto" autoplay loop>
+            <source src="Resources/Audio/Akatsuki_Theme.mp3" type="audio/mpeg">
+        </audio>
+        <!-- <audio hidden autoplay="true" loop="true" src="Resources/Audio/Akatsuki_Theme.mp3"></audio> -->
+        <script src="JS/master.js"></script>
+        <script src="JS/responsive.js"></script>
+        <script src="JS/votacao.js"></script>
+        <script src="JS/akatsukiPage.js"></script>
+        <script src="JS/modalBox.js"></script>
 </body>
 
 </html>
