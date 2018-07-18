@@ -388,6 +388,7 @@ footer {
     padding: -5px 0;
     justify-content: space-around;
     align-items: center;
+    align-self: flex-end;
     color: white;
     position: relative;
     bottom: 0;

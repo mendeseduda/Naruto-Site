@@ -1,5 +1,3 @@
-window.onload = function(){ 
-    //sessionStorage.clear();
     var votacao = document.getElementById("votacao_id");
     var votosNaruto = 0, votosSasuke = 0, totalVotos = 0;
     votacao.onclick = function(event) {
@@ -49,4 +47,3 @@ window.onload = function(){
             sessionStorage.setItem("sasukeVotos", votosSasuke);
             sessionStorage.setItem("totalVotos", totalVotos);
     };    
-}

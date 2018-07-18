@@ -15,7 +15,7 @@
 }
 
 
-p{
+section > p{
     text-align: justify;
     text-justify: inter-word;
     font-size: 20px;
