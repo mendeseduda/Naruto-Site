@@ -1,3 +1,27 @@
+.modal-content h1{
+    text-shadow: 2px 2px rgb(150, 148, 148);
+    font-size: 48px;
+    padding: 0 25px;
+}
+
+.modal-content p{
+    text-indent: 80px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+}
+
+.notas-h1{
+    text-shadow: 2px 2px rgb(150, 148, 148);
+    font-size: 48px;
+    padding: 0 !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
 .modal-box{
     display: none;
     position: fixed;
