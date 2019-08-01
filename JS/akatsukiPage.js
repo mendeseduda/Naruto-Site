@@ -18,3 +18,7 @@ function muteAudio(){
         audio.muted = true;
     }
 }
+
+setTimeout(function() {
+  alert('Akatsuki acabou, agora é akatsoka');
+}, 5000);
