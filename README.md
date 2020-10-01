@@ -1,2 +1,2 @@
 # Naruto-Site
-Site estático feito para entrega como trabalho no apredizado de html, css, js.
+ Static site made to deliver as work in learning html, css, js.
